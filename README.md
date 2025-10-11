@@ -1,4 +1,3 @@
-# AI-ML-Work
+# Experimentation with AI and ML Technology
 
-## P1_FoodHub_VK_Notebook_Full_Code 
-### Data file: P1_FoodHub_VK_Notebook_Full_Code.csv
+These are only my experimentation with Artificial Intelligence. My attempts to learn the new technology. 
