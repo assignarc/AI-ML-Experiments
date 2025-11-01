@@ -1,0 +1,13 @@
+numpy
+pandas 
+matplotlib
+seaborn
+plotly
+scikit-learn
+statsmodels
+vkpykit
+plotly
+sklearn
+plotly-express
+nbformat
+jinja2
