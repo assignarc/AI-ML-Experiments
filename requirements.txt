@@ -7,7 +7,10 @@ scikit-learn
 statsmodels
 vkpykit
 plotly
-sklearn
 plotly-express
 nbformat
 jinja2
+sklearn-pandas
+sqlalchemy-mate==2.0.0.0
+uszipcode
+/Users/vishalkhapre/Documents/Code/VKPyKit/dist/vkpykit-0.3.7.tar.gz
