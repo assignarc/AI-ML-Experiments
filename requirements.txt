@@ -5,7 +5,6 @@ seaborn
 plotly
 scikit-learn
 statsmodels
-vkpykit
 plotly
 plotly-express
 nbformat
@@ -14,4 +13,5 @@ sklearn-pandas
 sqlalchemy-mate==2.0.0.0
 uszipcode
 mlxtend
-/Users/vishalkhapre/Documents/Code/VKPyKit/dist/vkpykit-0.3.13.tar.gz
+xgboost
+vkpykit
