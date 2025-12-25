@@ -123,6 +123,8 @@ VKPyKit has been extensively used in:
 - Built predictive models to identify high-risk bookings
 - Provided actionable insights for revenue optimization and overbooking strategies
 
+**📖 [View Detailed README](./P0-AIApplicationCaseStudy-HotelCancellation/README.md)**
+
 ---
 
 ### 🍔 [P1: FoodHub Order Analysis](./P1-FoodHub)
@@ -154,6 +156,8 @@ VKPyKit has been extensively used in:
 - Identified correlations between cuisine type, cost, and delivery performance
 - Restaurant performance comparison across multiple metrics
 - Data-driven recommendations for improving operational efficiency
+
+**📖 [View Detailed README](./P1-FoodHub/README.md)**
 
 ---
 
@@ -191,6 +195,8 @@ VKPyKit has been extensively used in:
 - Income and CCAvg emerged as strong predictors of loan acceptance
 - Applied decision trees to understand feature importance and decision boundaries
 - Optimized campaign ROI through data-driven targeting strategies
+
+**📖 [View Detailed README](./P2-PersonalLoanCampaign/README.md)**
 
 ---
 
@@ -245,6 +251,8 @@ VKPyKit has been extensively used in:
 - Achieved significant performance improvements through systematic tuning
 - Education level and prevailing wage identified as key predictors
 
+**📖 [View Detailed README](./P3-EnsembleLearning-Visa/README.md)**
+
 ---
 
 ## 📚 Weekly Learning Modules
@@ -265,6 +273,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - File I/O and system operations
 - Python best practices and debugging techniques
 
+**📖 [View Detailed README](./W0-PythonTrainings/README.md)**
+
 #### **[W1: Python Essentials](./W1-PythonEssentials)**
 
 **Focus:** Core Python libraries for data science  
@@ -277,6 +287,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - **OS Module:** File system operations and automation
 
 **Case Study:** MovieLens dataset - Introduction to recommendation systems
+
+**📖 [View Detailed README](./W1-PythonEssentials/README.md)**
 
 ---
 
@@ -291,6 +303,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - User behavior analysis
 - Movie rating distributions
 - Basic recommendation algorithms
+
+**📖 [View Detailed README](./W2-MovieLens/README.md)**
 
 #### **[W3: Exploratory Data Analysis](./W3-ExploratoryDataAnalysis)**
 
@@ -311,6 +325,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - **Visualization Libraries:** Matplotlib, Seaborn, Plotly
 - Data quality assessment and missing value treatment
 
+**📖 [View Detailed README](./W3-ExploratoryDataAnalysis/README.md)**
+
 #### **[W4: Text Data Analysis](./W4-AnalyzeTextData)**
 
 **Focus:** Natural language processing and text mining fundamentals  
@@ -320,6 +336,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - Text cleaning and preprocessing
 - Data extraction from unstructured text
 - String manipulation and parsing techniques
+
+**📖 [View Detailed README](./W4-AnalyzeTextData/README.md)**
 
 ---
 
@@ -347,6 +365,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - Residual analysis and diagnostics
 - Multicollinearity detection (VIF)
 
+**📖 [View Detailed README](./W5-LinearRegression/README.md)**
+
 #### **[W6: Decision Trees](./W6-DecisionTree)**
 
 **Focus:** Tree-based classification and regression algorithms  
@@ -367,6 +387,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - Hyperparameter tuning (max_depth, min_samples_split, min_samples_leaf)
 - Feature importance analysis
 - Visualization of decision boundaries and trees
+
+**📖 [View Detailed README](./W6-DecisionTree/README.md)**
 
 ---
 
@@ -391,6 +413,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - Cluster profiling and interpretation
 - Customer segmentation strategies
 
+**📖 [View Detailed README](./W7-ClusteringKMeans/README.md)**
+
 #### **[W8: Hierarchical Clustering](./W8-ClusteringHierarchical)**
 
 **Focus:** Hierarchical clustering methods and dimensionality reduction  
@@ -410,6 +434,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - Distance metrics: Euclidean, Manhattan, Cosine
 - **PCA:** Feature extraction, variance explanation, component interpretation
 - Scree plots for component selection
+
+**📖 [View Detailed README](./W8-ClusteringHierarchical/README.md)**
 
 ---
 
@@ -434,6 +460,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - Variance reduction through bagging
 - Comparison: Single Decision Tree vs. Bagging vs. Random Forest
 
+**📖 [View Detailed README](./W9-EnsembleLearning-Bagging/README.md)**
+
 #### **[W10: Ensemble Learning - Boosting](./W10-EnsembleLearning-Boosting)**
 
 **Focus:** Sequential ensemble methods and boosting algorithms  
@@ -452,6 +480,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - Learning rate and n_estimators tuning
 - Bias-variance tradeoff in boosting
 - Performance comparison across boosting algorithms
+
+**📖 [View Detailed README](./W10-EnsembleLearning-Boosting/README.md)**
 
 #### **[W11: Model Tuning & Optimization](./W11-EnsembleLearning-ModelTuning)**
 
@@ -475,6 +505,8 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 - **Oversampling vs. Undersampling:** Comparative analysis
 - Pipeline creation for reproducible workflows
 - Nested cross-validation for unbiased evaluation
+
+**📖 [View Detailed README](./W11-EnsembleLearning-ModelTuning/README.md)**
 
 ---
 
