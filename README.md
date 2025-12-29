@@ -257,7 +257,7 @@ VKPyKit has been extensively used in:
 
 ## 📚 Weekly Learning Modules
 
-A structured 11-week learning path from Python fundamentals to advanced ensemble methods, featuring hands-on exercises and real-world case studies.
+A structured 12-week learning path from Python fundamentals to advanced ML pipelines, featuring hands-on exercises and real-world case studies.
 
 ---
 
@@ -508,6 +508,40 @@ A structured 11-week learning path from Python fundamentals to advanced ensemble
 
 **📖 [View Detailed README](./W11-EnsembleLearning-ModelTuning/README.md)**
 
+#### **[W12: ML Pipelines](./W12-MLPipelines)**
+
+**Focus:** Streamlined ML workflows with scikit-learn pipelines  
+**Content:** End-to-end pipeline implementation
+
+**Projects:**
+
+1. **SimplePipeline:** Diabetes risk prediction using Pipeline and make_pipeline
+
+**Techniques Learned:**
+
+- **sklearn.pipeline.Pipeline:** Creating named pipeline steps for explicit control
+- **sklearn.pipeline.make_pipeline:** Simplified pipeline creation with automatic naming
+- **Pipeline Benefits:**
+  - Prevents data leakage in preprocessing
+  - Ensures fit/transform separation between train and test data
+  - Single object for entire ML workflow
+  - Seamless integration with cross-validation
+  - Production-ready model deployment
+- **StandardScaler Integration:** Feature standardization within pipelines
+- **Cross-Validation with Pipelines:** Proper CV workflow maintenance
+- **Pipeline Component Access:** Accessing and manipulating named steps
+- **End-to-End Workflow Automation:** From raw data to predictions
+
+**Key Highlights:**
+
+- Comparison of `Pipeline` vs `make_pipeline` approaches
+- Prevention of common pitfalls (data leakage, preprocessing errors)
+- Building reproducible and maintainable ML workflows
+- Integration of preprocessing and modeling in a single object
+- Applied to medical diagnostics (Pima Indians Diabetes dataset)
+
+**📖 [View Detailed README](./W12-MLPipelines/SimplePipeline/README.md)**
+
 ---
 
 ### 📈 Learning Progression
@@ -522,6 +556,8 @@ Week 5-6:  Supervised Learning (Regression & Classification)
 Week 7-8:  Unsupervised Learning (Clustering & PCA)
   ↓
 Week 9-11: Advanced Ensemble Methods & Optimization
+  ↓
+Week 12:   ML Pipelines & Workflow Automation
 ```
 
 **Total Content:**
@@ -530,6 +566,7 @@ Week 9-11: Advanced Ensemble Methods & Optimization
 - **40+** Jupyter notebooks
 - **15+** real-world case studies
 - **10+** different ML algorithms implemented
+- **Complete ML workflow automation** with pipelines
 
 ---
 
