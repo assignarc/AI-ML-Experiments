@@ -542,6 +542,36 @@ A structured 12-week learning path from Python fundamentals to advanced ML pipel
 
 ---
 
+### 🧠 Deep Learning
+
+#### **[W14: Introduction to Neural Networks](./W14-IntroNeuralNetworks)**
+
+**Focus:** Fundamentals of Deep Learning and Artificial Neural Networks (ANN)
+**Content:** Hands-on implementation of regression using TensorFlow/Keras
+
+**Projects:**
+
+1. **Used Car Price Prediction:** Building a pricing model using Neural Networks.
+
+**Techniques Learned:**
+
+- **Keras Sequential API:** Constructing models layer-by-layer
+- **Network Architecture:** Designing Input, Hidden, and Output layers
+- **Activation Functions:** Impact of ReLU, Sigmoid, and Tanh on learning
+- **Optimizers & Loss:** Using SGD and Mean Squared Error for regression
+- **Model Tuning:** Experimenting with epochs, batch sizes, and neurons
+- **Preprocessing for DL:** Log-transformation and scaling for convergence
+
+**Key Highlights:**
+
+- Iteratively built and compared 8 different NN architectures
+- Achieved ~84% R² on test data using a ReLU-activated network
+- Demonstrated the trade-off between model complexity and training time
+
+**📖 [View Detailed README](./W14-IntroNeuralNetworks/README.md)**
+
+---
+
 ### 📈 Learning Progression
 
 ```
