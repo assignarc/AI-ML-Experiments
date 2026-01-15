@@ -19,3 +19,5 @@ keras
 keras.models
 keras.utils
 keras.preprocessing
+certifi
+pip-system-certs
