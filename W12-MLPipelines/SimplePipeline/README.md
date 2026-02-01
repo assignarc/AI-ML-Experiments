@@ -18,16 +18,16 @@ A medical dataset containing diagnostic measurements from 768 female patients of
 
 ### Features
 
-| Feature | Description                                                       |
-| ------- | ----------------------------------------------------------------- |
-| `Preg`  | Number of pregnancies                                             |
-| `Plas`  | Plasma glucose concentration (2-hour oral glucose tolerance test) |
-| `Pres`  | Diastolic blood pressure (mm Hg)                                  |
-| `skin`  | Triceps skinfold thickness (mm)                                   |
-| `test`  | 2-Hour serum insulin (mu U/ml)                                    |
-| `mass`  | Body mass index (weight in kg/(height in m)²)                     |
-| `pedi`  | Diabetes pedigree function (genetic likelihood score)             |
-| `age`   | Age in years                                                      |
+| Feature  | Description                                                       |
+| -------- | ----------------------------------------------------------------- |
+| `Preg` | Number of pregnancies                                             |
+| `Plas` | Plasma glucose concentration (2-hour oral glucose tolerance test) |
+| `Pres` | Diastolic blood pressure (mm Hg)                                  |
+| `skin` | Triceps skinfold thickness (mm)x                                  |
+| `test` | 2-Hour serum insulin (mu U/ml)                                    |
+| `mass` | Body mass index (weight in kg/(height in m)²)                    |
+| `pedi` | Diabetes pedigree function (genetic likelihood score)             |
+| `age`  | Age in years                                                      |
 
 ### Target Variable
 
@@ -73,10 +73,10 @@ pipe = make_pipeline(
 
 ### 2. **Benefits of Pipelines**
 
-✅ **Prevents Data Leakage** - Ensures preprocessing fits only on training data  
-✅ **Code Simplification** - Single fit/predict call for entire workflow  
-✅ **Reproducibility** - Encapsulates entire workflow in one object  
-✅ **Cross-Validation Ready** - Works seamlessly with CV functions  
+✅ **Prevents Data Leakage** - Ensures preprocessing fits only on training data
+✅ **Code Simplification** - Single fit/predict call for entire workflow
+✅ **Reproducibility** - Encapsulates entire workflow in one object
+✅ **Cross-Validation Ready** - Works seamlessly with CV functions
 ✅ **Production Ready** - Easy to serialize and deploy
 
 ### 3. **Cross-Validation Integration**
@@ -116,13 +116,11 @@ pip install pandas numpy scikit-learn jupyter
    ```bash
    cd W12-MLPipelines/SimplePipeline
    ```
-
 2. Launch Jupyter Notebook:
 
    ```bash
    jupyter notebook "Pipeline and make_pipeline-1.ipynb"
    ```
-
 3. Execute cells sequentially to see pipeline construction and evaluation
 
 ## 📁 Project Structure
