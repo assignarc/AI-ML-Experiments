@@ -1,0 +1,72 @@
+# clears the current Keras session, resetting all layers and models previously created, freeing up memory and resources.
+tf.keras.backend.clear_session()
+OPTIMIZER = tf.keras.optimizers.Adam() 
+
+# Initializing the neural network
+M6 = Sequential()
+M6.add(Dense(units=32 ,name ='H1',activation="relu",input_dim=X_train.shape[1]))
+M6.add(Dropout(0.1,name="D1"))
+M6.add(Dense(units=16,name='H2',activation="relu"))
+M6.add(Dense(units=8,name ="H3", activation='relu'))
+M6.add(Dense( 1 ,name ='OUT', activation="sigmoid"))
+# Print Summary
+M6.summary()
+
+M6.compile(loss=LOSSTYPE, optimizer=OPTIMIZER, metrics = OPTMIZATION_METRICS )
+
+M6_start = time.time()
+M6_history = M6.fit(X_train, y_train, validation_data=(X_val,y_val) , batch_size=BATCH_SIZE, epochs=EPOCHS,verbose=1)
+M6_end=time.time()
+
+M6_T_performance = MLM.model_performance_classification(model=M6, predictors=X_train, expected=y_train, threshold=THRESHOLD, score_average='macro', title="M6 Training Data")
+M6_V_performance = MLM.model_performance_classification(model=M6, predictors=X_val, expected=y_val,threshold=THRESHOLD, score_average='macro',title="M6 Validation Data")
+
+MLM.model_history_plot(M6_history, title = "M6 History")
+
+#Check the predictions. 
+M6_y_train_pred = M6.predict(X_train)
+M6_y_val_pred = M6.predict(X_val)
+
+#Collect Classification Reports - Train
+M6_cr_train = classification_report(y_train,M6_y_train_pred>THRESHOLD,output_dict=True, digits=4, target_names=TARGET_NAMES)
+print(M6_cr_train)
+# Visualize using Seaborn
+plt.figure(figsize=(3, 2))
+sns.heatmap(pd.DataFrame(data=M6_cr_train).T.iloc[:-3, :-1], annot=True, cmap="Blues", fmt=".4f")
+plt.title(f"M6 - CR Heatmap - Train")
+plt.show()
+
+
+# Visualize using Seaborn - Validation
+M6_cr_val = classification_report(y_val,M6_y_val_pred>THRESHOLD,output_dict=True, digits=4, target_names=TARGET_NAMES)
+plt.figure(figsize=(3, 2))
+sns.heatmap(pd.DataFrame(data=M6_cr_val).T.iloc[:-3, :-1], annot=True, cmap="Blues", fmt=".4f")
+plt.title("M6 CR Heatmap - Val")
+plt.show()
+
+
+results = pd.concat([results, pd.DataFrame(data={
+                                    'ModelName':'M6',
+                                    'Layers' : 4,
+                                    'Epochs':EPOCHS,
+                                    'BatchSize':BATCH_SIZE,
+                                    'Activation':'relu',
+                                    'Optimizer':'SGD',
+                                    'Loss':'binary_crossentropy',
+                                    'Metrics':'accuracy',
+                                    'TotalParameters': M6.count_params(),
+                                    'Model':M6,
+                                    'History':M6_history,
+                                    'Time':M6_end-M6_start,
+                                    'T_Accuracy':M6_T_performance['Accuracy'].abs(),
+                                    'T_Recall':M6_T_performance['Recall'].abs(),
+                                    'T_Precision':M6_T_performance['Precision'].abs(),
+                                    'T_F1Score':M6_T_performance['F1'].abs(),
+                                    'V_Accuracy':M6_V_performance['Accuracy'].abs(),
+                                    'V_Recall':M6_V_performance['Recall'].abs(),
+                                    'V_Precision':M6_V_performance['Precision'].abs(),
+                                    'V_F1Score':M6_V_performance['F1'].abs(),
+                                    })
+    ])
+
+display(results)

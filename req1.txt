@@ -14,5 +14,5 @@ sqlalchemy-mate==2.0.0.0
 uszipcode
 mlxtend
 xgboost
-/Users/vishalkhapre/Documents/Code/VKPyKit/dist/vkpykit-0.4.4.tar.gz
+/Users/vishalkhapre/Documents/Code/VKPyKit/dist/vkpykit-0.4.10.tar.gz
 # vkpykit
