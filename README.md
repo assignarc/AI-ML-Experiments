@@ -257,6 +257,58 @@ VKPyKit has been extensively used in:
 
 ---
 
+### ⚡ [P4: RenewableEnergyWind - Predictive Maintenance](./P4-RenewableEnergyWind)
+
+**Domain:** Renewable Energy & IoT
+**Objective:** Predict wind turbine generator failures before they occur to enable predictive maintenance and reduce operational costs
+
+**Dataset:**
+
+- 25,000 sensor measurements total (20,000 train / 5,000 test)
+- 40 predictive features (anonymized sensor data from wind turbines)
+- Target: Binary classification (1 = Failure, 0 = No Failure)
+- **Encrypted/ciphered** sensor data for confidentiality
+- Highly imbalanced dataset requiring class weighting techniques
+
+**Advanced Techniques:**
+
+- **Deep Learning:** Multiple neural network architectures using TensorFlow/Keras
+- **Feature Scaling:** StandardScaler for neural network optimization
+- **Regularization:** Dropout layers and Batch Normalization
+- **Class Imbalance:** Class weighting to address failure detection sensitivity
+- **Architectures:** 3-5 layer Sequential networks with varying configurations
+- **Custom Toolkit:** VKPyKit for preprocessing and utilities
+
+**Neural Network Models:**
+
+1. Baseline 3-Layer Network (unscaled vs. scaled)
+2. Dropout-Regularized Models (various dropout rates)
+3. Class-Weighted Networks for imbalanced data
+4. Deep Networks (4-5 layers)
+5. Batch-Normalized architectures
+6. Combination models (Dropout + Class Weights + Scaling)
+
+**Key Technical Insights:**
+
+- **Feature Scaling:** Scaled models consistently outperformed unscaled versions for neural networks
+- **Non-Linear Patterns:** Weak linear correlations (max 0.37) justify deep learning approach
+- **Regularization:** Dropout and Batch Normalization prevent overfitting
+- **Class Weights:** Improved model sensitivity to failure cases
+- **Cost Analysis:** Optimized for business metrics (repair vs. replacement vs. inspection costs)
+
+**Key Highlights:**
+
+- Comprehensive neural network experimentation with 15+ model configurations
+- Systematic comparison of scaled vs. unscaled data performance
+- Feature engineering from encrypted sensor measurements
+- Cost-benefit analysis aligned with business objectives (TP=Repair, FN=Replacement, FP=Inspection)
+- Built production-ready predictive maintenance system
+- Demonstrated critical importance of data preprocessing for deep learning
+
+**📖 [View Detailed README](./P4-RenewableEnergyWind/README.md)**
+
+---
+
 ## 📚 Weekly Learning Modules
 
 A structured 12-week learning path from Python fundamentals to advanced ML pipelines, featuring hands-on exercises and real-world case studies.
@@ -572,6 +624,37 @@ A structured 12-week learning path from Python fundamentals to advanced ML pipel
 
 ---
 
+#### **[W15: Optimizing Neural Networks](./W15-OptimizingNeuralNetworks)**
+
+**Focus:** Advanced optimization techniques for neural networks to prevent overfitting and improve generalization
+**Content:** Hands-on implementation of regularization and normalization techniques
+
+**Projects:**
+
+1. **MNIST Digit Classification:** Implementing Dropout and Batch Normalization for handwritten digit recognition.
+2. **Credit Card Fraud Detection:** Optimizing neural networks for imbalanced datasets.
+3. **Job Change Prediction:** Employee retention prediction using optimized neural network architectures.
+
+**Techniques Learned:**
+
+- **Dropout:** Random neuron deactivation to prevent overfitting
+- **Batch Normalization:** Stabilizing and accelerating training through layer normalization
+- **L1/L2 Regularization:** Weight constraint techniques
+- **Learning Rate Scheduling:** Dynamic learning rate adjustment
+- **Early Stopping:** Preventing overfitting through validation monitoring
+- **Hyperparameter Tuning:** Optimizing dropout rates, batch sizes, and network architectures
+
+**Key Highlights:**
+
+- Comparative analysis of baseline vs. optimized models
+- Hands-on implementation of advanced regularization techniques
+- Application to real-world problems (fraud detection, employee analytics)
+- Understanding the impact of optimization on model generalization
+
+**📖 [View Detailed README](./W15-OptimizingNeuralNetworks/README.md)**
+
+---
+
 ### 📈 Learning Progression
 
 ```
@@ -586,15 +669,18 @@ Week 7-8:  Unsupervised Learning (Clustering & PCA)
 Week 9-11: Advanced Ensemble Methods & Optimization
   ↓
 Week 12:   ML Pipelines & Workflow Automation
+  ↓
+Week 14-15: Deep Learning (Neural Networks & Optimization)
 ```
 
 **Total Content:**
 
 - **125+** Python training exercises
-- **40+** Jupyter notebooks
-- **15+** real-world case studies
+- **50+** Jupyter notebooks
+- **19+** real-world case studies (including P4: Renewable Energy Wind)
 - **10+** different ML algorithms implemented
 - **Complete ML workflow automation** with pipelines
+- **Deep Learning fundamentals** and optimization techniques with TensorFlow/Keras
 
 ---
 
