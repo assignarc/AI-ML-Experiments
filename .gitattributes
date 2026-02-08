@@ -1,3 +1,4 @@
 W15-OptimizingNeuralNetworks/CreditCard/creditcard.csv filter=lfs diff=lfs merge=lfs -text
 W16-NaturalLanguageProcessing/WordEmbedding/glove.6B.100d.zip filter=lfs diff=lfs merge=lfs -text
 W16-NaturalLanguageProcessing/ProductReview/glove.6B.100d.zip filter=lfs diff=lfs merge=lfs -text
+glove.6B.100d.txt
