@@ -21,3 +21,5 @@ keras.utils
 keras.preprocessing
 certifi
 pip-system-certs
+ntlk
+gensim
