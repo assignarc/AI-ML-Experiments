@@ -590,7 +590,34 @@ A structured 12-week learning path from Python fundamentals to advanced ML pipel
 - Integration of preprocessing and modeling in a single object
 - Applied to medical diagnostics (Pima Indians Diabetes dataset)
 
-**📖 [View Detailed README](./W12-MLPipelines/SimplePipeline/README.md)**
+**📖 [View Module README](./W12-MLPipelines/README.md)** | **[View SimplePipeline README](./W12-MLPipelines/SimplePipeline/README.md)**
+
+#### **[W13: Ridge vs Lasso Regression](./W13-RidgeLassoComparision)**
+
+**Focus:** Comparing regularization techniques (Ridge vs Lasso)  
+**Content:** Regression comparison on car fuel efficiency dataset
+
+**Case Study:**
+
+1. **Car MPG Prediction:** Predicting miles per gallon using Ridge and Lasso regression
+
+**Techniques Learned:**
+
+- **Ridge Regression (L2):** Shrinks coefficients toward zero
+- **Lasso Regression (L1):** Performs feature selection by zeroing out coefficients
+- **Feature Scaling:** StandardScaler for regularized models
+- **Cross-Validation:** Finding optimal regularization parameters
+- **Model Comparison:** Ridge vs Lasso vs standard Linear Regression
+- **Metrics:** R² score, MSE, RMSE
+
+**Key Highlights:**
+
+- Feature scaling is crucial for regularized models
+- Ridge works better when all features contribute
+- Lasso performs automatic feature selection
+- Cross-validation helps find optimal regularization strength
+
+**📖 [View Detailed README](./W13-RidgeLassoComparision/README.md)**
 
 ---
 
@@ -655,6 +682,129 @@ A structured 12-week learning path from Python fundamentals to advanced ML pipel
 
 ---
 
+### 💬 Natural Language Processing
+
+#### **[W16: Natural Language Processing](./W16-NaturalLanguageProcessing)**
+
+**Focus:** NLP fundamentals, word embeddings, and text classification
+**Content:** 3 comprehensive projects on sentiment analysis and text categorization
+
+**Projects:**
+
+##### **1. [Movie Review Sentiment Analysis](./W16-NaturalLanguageProcessing/Movies)**
+
+**Problem:** Binary sentiment classification of movie reviews
+**Dataset:** Movie reviews with positive/negative labels
+
+**Techniques:**
+
+- Text preprocessing (tokenization, lemmatization, stopword removal)
+- **GloVe word embeddings** (100-dimensional vectors)
+- Random Forest classification
+- NLTK for text processing
+
+**Results:** ~84% train accuracy, ~81% test accuracy
+
+**📖 [View Detailed README](./W16-NaturalLanguageProcessing/Movies/README.md)**
+
+##### **2. [Product Review Sentiment Analysis](./W16-NaturalLanguageProcessing/ProductReview)**
+
+**Problem:** Sentiment classification for product reviews
+**Dataset:** Product review text with sentiment labels
+
+**Techniques:**
+
+- GloVe pre-trained embeddings
+- Document-level embedding (averaging word vectors)
+- Text cleaning and preprocessing
+- Classification modeling
+
+**Key Learning:** Word embeddings generalize across different domains
+
+**📖 [View Detailed README](./W16-NaturalLanguageProcessing/ProductReview/README.md)**
+
+##### **3. [Article Categorization](./W16-NaturalLanguageProcessing/WordEmbedding)**
+
+**Problem:** Multi-class classification of news articles by topic/category
+**Dataset:** News articles with category labels
+
+**Techniques:**
+
+- **GloVe embeddings** for semantic representation
+- Random Forest for multi-class classification
+- Text preprocessing pipeline
+- Feature importance analysis
+
+**Business Context:**
+
+- Content recommendation systems
+- Automatic article tagging
+- Personalized news feeds
+
+**Key Learning:** Pre-trained embeddings save massive training time and work well for classification
+
+**📖 [View Detailed README](./W16-NaturalLanguageProcessing/WordEmbedding/README.md)**
+
+**Common NLP Techniques Across Projects:**
+
+- Tokenization and text cleaning
+- Lemmatization using NLTK WordNet
+- Stopword removal
+- GloVe word embeddings (Global Vectors for Word Representation)
+- Document vectorization strategies
+- Text classification with ensemble methods
+
+#### **[W17: Attention Mechanisms & Transformers](./W17-AttentionMechanism-Transformers)**
+
+**Focus:** Modern NLP with transformers and attention mechanisms  
+**Content:** 2 projects exploring transformers for text classification
+
+**Projects:**
+
+##### **1. [Transformer-Based Movie Reviews](./W17-AttentionMechanism-Transformers/HandsOn-MoviewReviews)**
+
+**Problem:** Movie review sentiment analysis using transformers
+**Dataset:** Movie reviews dataset
+
+**Techniques:**
+
+- **Sentence Transformers** - pre-trained transformer models
+- Contextualized embeddings (context-aware word representations)
+- Attention mechanisms
+- PyTorch for deep learning
+
+**Key Learning:** Transformers capture context better than static embeddings like GloVe
+
+**📖 [View Detailed README](./W17-AttentionMechanism-Transformers/HandsOn-MoviewReviews/README.md)**
+
+##### **2. [News Article Categorization with Transformers](./W17-AttentionMechanism-Transformers/NewsArticles)**
+
+**Problem:** Multi-class article categorization using attention mechanisms
+**Dataset:** News articles with category labels
+
+**Techniques:**
+
+- Pre-trained sentence transformers
+- Attention mechanisms for document understanding
+- Transfer learning with BERT/RoBERTa-based models
+- Multi-class classification
+
+**Key Learning:** Transformers handle longer documents and context better than embedding averaging
+
+**📖 [View Detailed README](./W17-AttentionMechanism-Transformers/NewsArticles/README.md)**
+
+**Module Overview:**
+
+- Understanding attention mechanisms (self-attention)
+- Transformer architecture fundamentals
+- Using pre-trained transformer models
+- sentence-transformers library
+- Comparing transformers vs traditional embeddings
+
+**📖 [View Module README](./W17-AttentionMechanism-Transformers/README.md)**
+
+---
+
 ### 📈 Learning Progression
 
 ```
@@ -670,17 +820,25 @@ Week 9-11: Advanced Ensemble Methods & Optimization
   ↓
 Week 12:   ML Pipelines & Workflow Automation
   ↓
+Week 13:   Regularization (Ridge & Lasso Regression)
+  ↓
 Week 14-15: Deep Learning (Neural Networks & Optimization)
+  ↓
+Week 16:   Natural Language Processing (Word Embeddings & Text Classification)
+  ↓
+Week 17:   Attention Mechanisms & Transformers (Modern NLP)
 ```
 
 **Total Content:**
 
 - **125+** Python training exercises
 - **50+** Jupyter notebooks
-- **19+** real-world case studies (including P4: Renewable Energy Wind)
+- **19+** real-world case studies
 - **10+** different ML algorithms implemented
 - **Complete ML workflow automation** with pipelines
-- **Deep Learning fundamentals** and optimization techniques with TensorFlow/Keras
+- **Deep Learning fundamentals** with TensorFlow/Keras
+- **NLP projects** with word embeddings and text classification
+- **Transformers & Attention** mechanisms for modern NLP
 
 ---
 
