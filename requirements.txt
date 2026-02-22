@@ -21,8 +21,8 @@ keras.utils
 keras.preprocessing
 certifi
 pip-system-certs
-ntlk
 gensim
 torch
 sentence_transformers
 llama-cpp-python
+huggingface_hub
