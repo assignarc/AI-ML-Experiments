@@ -2,7 +2,15 @@
 ~/.venv*
 ~/.vscode
 __pycache__/
-r.txt
+req1.txt
+
+# Secrets — never commit tokens
+.env
+.env.*
+
+# Large model files
+*.gguf
+*.bin
 W10-EnsambleLearning-Boosting/WineQuality/0.4.0
 TEMPLATE_README_STYLE.md
 W15-OptimizingNeuralNetworks/CreditCard/creditcard.csv
@@ -12,3 +20,4 @@ W16-NaturalLanguageProcessing/WordEmbedding/glove.6B.100d.txt.word2vec
 W16-NaturalLanguageProcessing/ProductReview/glove.6B.100d.txt.word2vec
 W16-NaturalLanguageProcessing/Movies/glove.6B.100d.txt
 W16-NaturalLanguageProcessing/Movies/glove.6B.100d.txt
+req1.txt
