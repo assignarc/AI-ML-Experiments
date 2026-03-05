@@ -1,14 +1,14 @@
 # 📊 W3: Exploratory Data Analysis
 
-> **Core Analytics Module:** Comprehensive EDA techniques and statistical visualization
+> **Core Analytics Module:** EDA techniques and statistical visualization
 
 ---
 
 ## 📋 Module Overview
 
-**Focus:** Exploratory Data Analysis Mastery  
-**Content:** 14 notebooks and exercises  
-**Difficulty:** Intermediate  
+**Focus:** Exploratory Data Analysis Mastery 
+**Content:** 14 notebooks and exercises 
+**Difficulty:** Intermediate 
 **Prerequisites:** W1 (Pandas), W2 (Data handling)
 
 ---
@@ -34,17 +34,17 @@
 
 1. **Hands-on EDA**
 
-   - `Hands_on_Exploratory_Data_Analysis_Notebook.ipynb`
-   - `W3-Hands_on_Exploratory_Data_Analysis_Notebook.ipynb`
+ - `Hands_on_Exploratory_Data_Analysis_Notebook.ipynb`
+ - `W3-Hands_on_Exploratory_Data_Analysis_Notebook.ipynb`
 
 2. **Python Visualization**
 
-   - `Python_Visualization_Notebook.ipynb`
-   - `W3-Python_Visualization_Notebook.ipynb`
+ - `Python_Visualization_Notebook.ipynb`
+ - `W3-Python_Visualization_Notebook.ipynb`
 
 3. **Practice Exercises**
-   - `W3-Hands_on_EDA_Practice1.ipynb`
-   - `W3-Hands_on_EDA_Practice2.ipynb`
+ - `W3-Hands_on_EDA_Practice1.ipynb`
+ - `W3-Hands_on_EDA_Practice2.ipynb`
 
 ---
 
@@ -104,10 +104,10 @@
 
 ## 💡 Skills Developed
 
-✅ Statistical thinking and analysis  
-✅ Data quality assessment  
-✅ Effective visualization techniques  
-✅ Pattern recognition in data  
+✅ Statistical thinking and analysis 
+✅ Data quality assessment 
+✅ Effective visualization techniques 
+✅ Pattern recognition in data 
 ✅ Storytelling with data
 
 ---
@@ -128,7 +128,15 @@ W3-ExploratoryDataAnalysis/
 
 ---
 
-## 🚀 How to Use
+## Running This
+### Packages Needed For This Module:
+- `google`
+- `itertools`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `seaborn`
+
 
 ### Installation
 
@@ -152,7 +160,7 @@ jupyter notebook
 
 ---
 
-## 🎓 Key Learnings
+## What I Learned
 
 - **Always start with EDA** before modeling
 - **Visualizations reveal insights** that statistics miss

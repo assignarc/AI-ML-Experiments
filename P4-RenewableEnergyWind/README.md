@@ -20,7 +20,7 @@ Wind energy is crucial for reducing environmental impact. Predictive maintenance
 
 **Cost Hierarchy:** `Inspection < Repair << Replacement`
 
-## 📊 Dataset
+## The Data
 
 - **Training Set:** 20,000 observations
 - **Test Set:** 5,000 observations
@@ -48,7 +48,7 @@ Built multiple neural network models using **TensorFlow/Keras** with different c
 4. **Scaled vs. Unscaled** comparison
 5. **Deep Networks** (4-5 layers with different architectures)
 
-### Key Findings
+### What I Found
 
 **✅ Feature Scaling is Critical**
 
@@ -82,7 +82,7 @@ Models evaluated using:
 - **VKPyKit Custom Library:** Custom ML utilities
 - **Scikit-learn:** StandardScaler, train_test_split, metrics
 
-## 🔑 Key Learnings
+## What I Learned
 
 - **Data preprocessing** is crucial for neural network performance
 - **Feature scaling** dramatically improves model convergence
@@ -99,3 +99,19 @@ Models evaluated using:
 ---
 
 [**🔙 Back to Main Repository**](../readme.md)
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `VKPyKit`
+- `copy`
+- `imblearn`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `seaborn`
+- `sklearn`
+- `tensorflow`
+- `xgboost`

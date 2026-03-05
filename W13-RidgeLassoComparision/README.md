@@ -63,3 +63,10 @@ Goal: predict fuel efficiency based on car specs
 **TL;DR:** Ridge shrinks everything a bit, Lasso picks winners and kills the rest. Both beat regular regression.
 
 [🔙 Back to Main Repository](../README.md)
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `sklearn`

@@ -6,9 +6,9 @@
 
 ## 📋 Module Overview
 
-**Focus:** Natural Language Processing & Text Mining  
-**Content:** 3 comprehensive notebooks  
-**Difficulty:** Intermediate  
+**Focus:** Natural Language Processing & Text Mining 
+**Content:** 3 notebooks 
+**Difficulty:** Intermediate 
 **Prerequisites:** W1-W3 (Python, Pandas, Data Analysis)
 
 ---
@@ -49,30 +49,30 @@ cleaned_text = re.sub(r'[^a-zA-Z0-9\s]', '', raw_text)
 
 - **Text Preprocessing:**
 
-  - Lowercasing
-  - Removing punctuation
-  - Tokenization
-  - Stop word removal
+ - Lowercasing
+ - Removing punctuation
+ - Tokenization
+ - Stop word removal
 
 - **Text Statistics:**
 
-  - Word frequency
-  - Document length analysis
-  - Vocabulary size
+ - Word frequency
+ - Document length analysis
+ - Vocabulary size
 
 - **Basic NLP:**
-  - Sentiment indicators
-  - Keyword extraction
-  - Text summarization basics
+ - Sentiment indicators
+ - Keyword extraction
+ - Text summarization basics
 
 ---
 
 ## 🎯 Skills Developed
 
-✅ **Regular Expressions** - Pattern matching and extraction  
-✅ **Text Cleaning** - Preprocessing unstructured data  
-✅ **String Manipulation** - Advanced Python string operations  
-✅ **Data Extraction** - Mining information from text  
+✅ **Regular Expressions** - Pattern matching and extraction 
+✅ **Text Cleaning** - Preprocessing unstructured data 
+✅ **String Manipulation** - Python string operations 
+✅ **Data Extraction** - Mining information from text 
 ✅ **NLP Foundations** - Basic natural language processing
 
 ---
@@ -88,7 +88,13 @@ W4-AnalyzeTextData/
 
 ---
 
-## 🚀 How to Use
+## Running This
+### Packages Needed For This Module:
+- `nltk`
+- `numpy`
+- `pandas`
+- `sklearn`
+
 
 ### Installation
 
@@ -127,15 +133,15 @@ jupyter notebook
 
 ```
 Raw Text
-   ↓
+ ↓
 Lowercase
-   ↓
+ ↓
 Remove Punctuation
-   ↓
+ ↓
 Tokenization
-   ↓
+ ↓
 Remove Stop Words
-   ↓
+ ↓
 Clean Text Ready for Analysis
 ```
 
@@ -153,12 +159,12 @@ Text analysis skills are used in:
 
 ---
 
-## 🎓 Learning Outcomes
+## What I Learned
 
 - Master regular expressions for pattern matching
 - Clean and preprocess text data efficiently
 - Extract structured information from unstructured text
-- Foundation for advanced NLP projects
+- Foundation for NLP projects
 - Practical string manipulation techniques
 
 ---

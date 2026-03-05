@@ -4,13 +4,13 @@
 
 ---
 
-## 📋 Project Overview
+## What\'s this project about?
 
-**Domain:** Food Delivery & Customer Analytics  
-**Project Type:** Exploratory Data Analysis (EDA)  
+**Domain:** Food Delivery & Customer Analytics 
+**Project Type:** Exploratory Data Analysis (EDA) 
 **Difficulty Level:** Beginner to Intermediate
 
-### Business Problem
+### The Goal
 
 FoodHub, a food aggregator company, needs to analyze customer ordering behavior to:
 
@@ -21,30 +21,30 @@ FoodHub, a food aggregator company, needs to analyze customer ordering behavior 
 
 ---
 
-## 📊 Dataset
+## The Data
 
-**Source:** FoodHub order records  
-**Records:** 1,898 food delivery orders  
-**Features:** 9 variables  
+**Source:** FoodHub order records 
+**Records:** 1,898 food delivery orders 
+**Features:** 9 variables 
 **Data Quality:** No missing values - Clean dataset
 
 ### Data Dictionary
 
-| Column                  | Description                      | Type    | Example     |
+| Column | Description | Type | Example |
 | ----------------------- | -------------------------------- | ------- | ----------- |
-| `order_id`              | Unique order identifier          | Integer | 1477147     |
-| `customer_id`           | Unique customer identifier       | Integer | 337525      |
-| `restaurant_name`       | Name of the restaurant           | Object  | Shake Shack |
-| `cuisine_type`          | Type of cuisine ordered          | Object  | American    |
-| `cost_of_the_order`     | Total order cost in USD          | Float   | 20.45       |
-| `day_of_the_week`       | Weekday or Weekend               | Object  | Weekday     |
-| `rating`                | Customer rating (or "Not given") | Object  | 5           |
-| `food_preparation_time` | Time in minutes                  | Integer | 25          |
-| `delivery_time`         | Time in minutes                  | Integer | 23          |
+| `order_id` | Unique order identifier | Integer | 1477147 |
+| `customer_id` | Unique customer identifier | Integer | 337525 |
+| `restaurant_name` | Name of the restaurant | Object | Shake Shack |
+| `cuisine_type` | Type of cuisine ordered | Object | American |
+| `cost_of_the_order` | Total order cost in USD | Float | 20.45 |
+| `day_of_the_week` | Weekday or Weekend | Object | Weekday |
+| `rating` | Customer rating (or "Not given") | Object | 5 |
+| `food_preparation_time` | Time in minutes | Integer | 25 |
+| `delivery_time` | Time in minutes | Integer | 23 |
 
 ---
 
-## 🎯 Analysis Objectives
+## What I\'m trying to do
 
 ### 1. Order Statistics
 
@@ -78,7 +78,7 @@ FoodHub, a food aggregator company, needs to analyze customer ordering behavior 
 
 ---
 
-## 📈 Key Statistics
+## Quick Numbers
 
 **Order Metrics:**
 
@@ -95,7 +95,14 @@ FoodHub, a food aggregator company, needs to analyze customer ordering behavior 
 
 ---
 
-## 🛠️ Technologies Used
+## Tech Stack
+### Packages Needed For This Module:
+- `google`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `seaborn`
+
 
 - **Python 3.8+**
 - **Pandas** - Data manipulation and analysis
@@ -119,7 +126,7 @@ P1-FoodHub/
 
 ---
 
-## 🚀 How to Use
+## Running This
 
 ### Installation
 
@@ -144,37 +151,37 @@ jupyter notebook P1_FoodHub_VK_Notebook_Full_Code.ipynb
 
 1. **Data Loading & Inspection**
 
-   - Load CSV data
-   - Check data types and structure
-   - Verify data quality (1,898 rows × 9 columns)
+ - Load CSV data
+ - Check data types and structure
+ - Verify data quality (1,898 rows × 9 columns)
 
 2. **Data Cleaning**
 
-   - Handle "Not given" ratings
-   - Check for missing values (None found ✓)
-   - Verify data consistency
+ - Handle "Not given" ratings
+ - Check for missing values (None found ✓)
+ - Verify data consistency
 
 3. **Exploratory Analysis**
 
-   - Univariate analysis (distributions)
-   - Bivariate analysis (relationships)
-   - Statistical summaries
+ - Univariate analysis (distributions)
+ - Bivariate analysis (relationships)
+ - Statistical summaries
 
 4. **Visualization**
 
-   - Order cost distributions
-   - Cuisine popularity charts
-   - Time analysis plots
-   - Rating distributions
+ - Order cost distributions
+ - Cuisine popularity charts
+ - Time analysis plots
+ - Rating distributions
 
 5. **Insights & Recommendations**
-   - Key findings summary
-   - Business recommendations
-   - Operational improvements
+ - Key findings summary
+ - Business recommendations
+ - Operational improvements
 
 ---
 
-## 💡 Key Findings
+## What I Found
 
 ### Customer Preferences
 
@@ -198,19 +205,19 @@ jupyter notebook P1_FoodHub_VK_Notebook_Full_Code.ipynb
 
 ## 📚 Skills Demonstrated
 
-✅ **Data Cleaning:** Handling mixed data types, treating special values  
-✅ **Statistical Analysis:** Descriptive statistics, distributions, correlations  
-✅ **Data Visualization:** Multiple chart types for effective communication  
-✅ **Business Thinking:** Translating data into actionable insights  
+✅ **Data Cleaning:** Handling mixed data types, treating special values 
+✅ **Statistical Analysis:** Descriptive statistics, distributions, correlations 
+✅ **Data Visualization:** Multiple chart types for effective communication 
+✅ **Business Thinking:** Translating data into actionable insights 
 ✅ **Python Proficiency:** Pandas, NumPy, Matplotlib/Seaborn
 
 ---
 
-## 🎓 Learning Outcomes
+## What I Learned
 
 From this project, you'll learn:
 
-- How to perform comprehensive EDA
+- How to perform EDA
 - Techniques for handling categorical data
 - Statistical analysis for business insights
 - Effective data visualization strategies
@@ -246,6 +253,6 @@ The notebook includes:
 
 ---
 
-**Author:** Vishal Khapre  
-**Project Type:** Exploratory Data Analysis  
+**Author:** Vishal Khapre 
+**Project Type:** Exploratory Data Analysis 
 **Domain:** Food Delivery Analytics

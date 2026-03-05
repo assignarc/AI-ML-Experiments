@@ -6,9 +6,9 @@
 
 ## 📋 Module Overview
 
-**Focus:** K-Means Clustering Algorithm  
-**Content:** 4 notebooks across 2 case studies  
-**Difficulty:** Intermediate  
+**Focus:** K-Means Clustering Algorithm 
+**Content:** 4 notebooks across 2 case studies 
+**Difficulty:** Intermediate 
 **Prerequisites:** W1-W6 (Python, EDA, ML basics)
 
 ---
@@ -17,14 +17,14 @@
 
 ### 1. Credit Card Customer Segmentation
 
-**Directory:** `CreditCardSegmentation/`  
-**Objective:** Identify customer groups for targeted marketing  
+**Directory:** `CreditCardSegmentation/` 
+**Objective:** Identify customer groups for targeted marketing 
 **Features:** Spending patterns, credit utilization, payment behavior
 
 ### 2. Retail Customer Segmentation
 
-**Directory:** `RetailSegmentation/`  
-**File:** `KMeansClustering.ipynb`  
+**Directory:** `RetailSegmentation/` 
+**File:** `KMeansClustering.ipynb` 
 **Objective:** Customer behavior clustering for business insights
 
 ---
@@ -49,11 +49,11 @@
 
 ## 💡 Skills Developed
 
-✅ K-Means implementation and optimization  
-✅ Elbow Method for K selection  
-✅ Silhouette analysis  
-✅ Feature scaling importance  
-✅ Cluster profiling and interpretation  
+✅ K-Means implementation and optimization 
+✅ Elbow Method for K selection 
+✅ Silhouette analysis 
+✅ Feature scaling importance 
+✅ Cluster profiling and interpretation 
 ✅ Customer segmentation strategies
 
 ---
@@ -63,9 +63,9 @@
 ```
 W7-ClusteringKMeans/
 ├── CreditCardSegmentation/
-│   └── CustomerSegmentationNotebook.ipynb
+│ └── CustomerSegmentationNotebook.ipynb
 ├── RetailSegmentation/
-│   └── KMeansClustering.ipynb
+│ └── KMeansClustering.ipynb
 └── README.md
 ```
 
@@ -89,3 +89,15 @@ jupyter notebook
 ---
 
 **Module:** W7 | **Type:** Unsupervised Learning | **Focus:** K-Means
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `plotly`
+- `seaborn`
+- `sklearn`

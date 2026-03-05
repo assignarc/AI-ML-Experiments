@@ -9,9 +9,9 @@ This module introduces the fundamentals of **Deep Learning** and **Artificial Ne
 - **Artificial Neural Networks (ANN):** Understanding neurons, layers (Input, Hidden, Output), and weights.
 - **Forward & Backward Propagation:** The mechanism of learning and error correction.
 - **Activation Functions:**
-  - **Sigmoid:** S-shaped curve, outputs between 0 and 1.
-  - **Tanh:** Hyperbolic tangent, outputs between -1 and 1.
-  - **ReLU (Rectified Linear Unit):** Solves vanishing gradient problem, outputs 0 or input.
+ - **Sigmoid:** S-shaped curve, outputs between 0 and 1.
+ - **Tanh:** Hyperbolic tangent, outputs between -1 and 1.
+ - **ReLU (Rectified Linear Unit):** Solves vanishing gradient problem, outputs 0 or input.
 - **Loss Functions:** Measuring error (e.g., Mean Squared Error for regression).
 - **Optimizers:** Algorithms to update weights (e.g., Stochastic Gradient Descent - SGD).
 
@@ -19,9 +19,9 @@ This module introduces the fundamentals of **Deep Learning** and **Artificial Ne
 
 - **TensorFlow & Keras:** Using the Sequential API to build models.
 - **Data Preprocessing for DL:**
-  - **StandardScaler:** Essential for neural network convergence.
-  - **Log Transformation:** Handling skewed data distributions.
-  - **Missing Value Imputation:** Using grouped medians.
+ - **StandardScaler:** Essential for neural network convergence.
+ - **Log Transformation:** Handling skewed data distributions.
+ - **Missing Value Imputation:** Using grouped medians.
 - **Model Evaluation:** R², RMSE, MAE, and MAPE.
 
 ## 📂 Projects
@@ -39,3 +39,16 @@ This module introduces the fundamentals of **Deep Learning** and **Artificial Ne
 ---
 
 [**🔙 Back to Main Repository**](../readme.md)
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `keras`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `random`
+- `seaborn`
+- `sklearn`
+- `tensorflow`

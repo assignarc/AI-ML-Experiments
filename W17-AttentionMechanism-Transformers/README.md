@@ -41,3 +41,18 @@ Article categorization using transformers and attention mechanisms. Testing out 
 **Module focus:** Understanding transformers and attention mechanisms for NLP
 
 [🔙 Back to Main Repository](../README.md)
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `scipy`
+- `seaborn`
+- `sentence_transformers`
+- `sklearn`
+- `torch`
+- `transformers`

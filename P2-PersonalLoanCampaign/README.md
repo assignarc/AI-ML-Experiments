@@ -4,13 +4,13 @@
 
 ---
 
-## 📋 Project Overview
+## What\'s this project about?
 
-**Domain:** Banking & Financial Services  
-**Project Type:** Binary Classification  
+**Domain:** Banking & Financial Services 
+**Project Type:** Binary Classification 
 **Difficulty Level:** Intermediate
 
-### Business Problem
+### The Goal
 
 AllLife Bank wants to increase the number of customers accepting personal loans. Currently, only 9.6% of customers accept loan offers. The bank needs to:
 
@@ -21,36 +21,36 @@ AllLife Bank wants to increase the number of customers accepting personal loans.
 
 ---
 
-## 📊 Dataset
+## The Data
 
-**Source:** AllLife Bank customer data  
-**Records:** 5,000 customer records  
-**Features:** 14 variables  
-**Target Variable:** `Personal_Loan` (Binary: 0 = Not Accepted, 1 = Accepted)  
+**Source:** AllLife Bank customer data 
+**Records:** 5,000 customer records 
+**Features:** 14 variables 
+**Target Variable:** `Personal_Loan` (Binary: 0 = Not Accepted, 1 = Accepted) 
 **Class Imbalance:** Highly imbalanced dataset (~9.6% acceptance rate)
 
 ### Data Dictionary
 
-| Feature              | Description                                 | Type    | Range/Values                            |
+| Feature | Description | Type | Range/Values |
 | -------------------- | ------------------------------------------- | ------- | --------------------------------------- |
-| `ID`                 | Customer ID                                 | Integer | 1-5000                                  |
-| `Age`                | Customer age in years                       | Integer | 23-67                                   |
-| `Experience`         | Years of professional experience            | Integer | -3 to 43                                |
-| `Income`             | Annual income (in $000s)                    | Integer | 8-224                                   |
-| `ZIPCode`            | Home address ZIP code                       | Integer | 5-digit                                 |
-| `Family`             | Family size                                 | Integer | 1-4                                     |
-| `CCAvg`              | Avg. credit card spending per month ($000s) | Float   | 0-10                                    |
-| `Education`          | Education level (1, 2, 3)                   | Integer | 1=Undergrad, 2=Graduate, 3=Professional |
-| `Mortgage`           | Value of house mortgage if any ($000s)      | Integer | 0-635                                   |
-| `Personal_Loan`      | **TARGET:** Accepted personal loan?         | Binary  | 0=No, 1=Yes                             |
-| `Securities_Account` | Has securities account?                     | Binary  | 0=No, 1=Yes                             |
-| `CD_Account`         | Has certificate of deposit account?         | Binary  | 0=No, 1=Yes                             |
-| `Online`             | Uses internet banking?                      | Binary  | 0=No, 1=Yes                             |
-| `CreditCard`         | Uses credit card?                           | Binary  | 0=No, 1=Yes                             |
+| `ID` | Customer ID | Integer | 1-5000 |
+| `Age` | Customer age in years | Integer | 23-67 |
+| `Experience` | Years of professional experience | Integer | -3 to 43 |
+| `Income` | Annual income (in $000s) | Integer | 8-224 |
+| `ZIPCode` | Home address ZIP code | Integer | 5-digit |
+| `Family` | Family size | Integer | 1-4 |
+| `CCAvg` | Avg. credit card spending per month ($000s) | Float | 0-10 |
+| `Education` | Education level (1, 2, 3) | Integer | 1=Undergrad, 2=Graduate, 3=Professional |
+| `Mortgage` | Value of house mortgage if any ($000s) | Integer | 0-635 |
+| `Personal_Loan` | **TARGET:** Accepted personal loan? | Binary | 0=No, 1=Yes |
+| `Securities_Account` | Has securities account? | Binary | 0=No, 1=Yes |
+| `CD_Account` | Has certificate of deposit account? | Binary | 0=No, 1=Yes |
+| `Online` | Uses internet banking? | Binary | 0=No, 1=Yes |
+| `CreditCard` | Uses credit card? | Binary | 0=No, 1=Yes |
 
 ---
 
-## 🎯 Project Objectives
+## What I\'m trying to do
 
 ### 1. Exploratory Data Analysis
 
@@ -80,7 +80,16 @@ AllLife Bank wants to increase the number of customers accepting personal loans.
 
 ---
 
-## 🛠️ Technologies Used
+## Tech Stack
+### Packages Needed For This Module:
+- `VKPyKit`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `seaborn`
+- `sklearn`
+- `uszipcode`
+
 
 ### Core Libraries
 
@@ -97,8 +106,8 @@ AllLife Bank wants to increase the number of customers accepting personal loans.
 ### Custom Toolkit
 
 - **VKPyKit** - Personal Python package
-  - `EDA` module for exploratory analysis
-  - `DT` module for Decision Tree utilities
+ - `EDA` module for exploratory analysis
+ - `DT` module for Decision Tree utilities
 
 ```python
 from VKPyKit.EDA import *
@@ -118,7 +127,7 @@ P2-PersonalLoanCampaign/
 
 ---
 
-## 🚀 How to Use
+## Running This
 
 ### Installation
 
@@ -142,19 +151,19 @@ jupyter notebook P2_PersonalLoanCampaign_VK_Notebook_Full_Code.ipynb
 
 ```mermaid
 graph LR
-    A[Load Data] --> B[EDA with VKPyKit]
-    B --> C[Data Cleaning]
-    C --> D[Feature Engineering]
-    D --> E[Train-Test Split]
-    E --> F[Decision Tree Model]
-    F --> G[Model Evaluation]
-    G --> H[Feature Importance]
-    H --> I[Business Insights]
+ A[Load Data] --> B[EDA with VKPyKit]
+ B --> C[Data Cleaning]
+ C --> D[Feature Engineering]
+ D --> E[Train-Test Split]
+ E --> F[Decision Tree Model]
+ F --> G[Model Evaluation]
+ G --> H[Feature Importance]
+ H --> I[Business Insights]
 ```
 
 ---
 
-## 🔑 Key Findings
+## What I Found
 
 ### Customer Segmentation
 
@@ -229,17 +238,17 @@ Focus campaigns on customers with:
 
 ## 📚 Skills Demonstrated
 
-✅ **Classification modeling** with Decision Trees  
-✅ **Handling imbalanced datasets**  
-✅ **Feature importance analysis**  
-✅ **Custom Python package usage** (VKPyKit)  
-✅ **Business-focused ML** - ROI optimization  
-✅ **Customer segmentation** techniques  
+✅ **Classification modeling** with Decision Trees 
+✅ **Handling imbalanced datasets** 
+✅ **Feature importance analysis** 
+✅ **Custom Python package usage** (VKPyKit) 
+✅ **Business-focused ML** - ROI optimization 
+✅ **Customer segmentation** techniques 
 ✅ **Model interpretation** for stakeholders
 
 ---
 
-## 🎓 Learning Outcomes
+## What I Learned
 
 - Building classification models for business problems
 - Dealing with imbalanced datasets
@@ -291,7 +300,7 @@ DT.feature_importance(model, feature_names)
 
 ---
 
-**Author:** Vishal Khapre  
-**Project Type:** Binary Classification  
-**Domain:** Banking & Financial Analytics  
+**Author:** Vishal Khapre 
+**Project Type:** Binary Classification 
+**Domain:** Banking & Financial Analytics 
 **Tools:** Python, Scikit-learn, VKPyKit

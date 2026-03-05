@@ -1,43 +1,43 @@
 # ⚙️ W11: Model Tuning & Optimization
 
-> **Advanced ML Module:** Hyperparameter optimization and advanced model validation
+> ** ML Module:** Hyperparameter optimization and model validation
 
 ---
 
 ## 📋 Module Overview
 
-**Focus:** Model optimization, cross-validation, imbalanced data  
-**Content:** 7 notebooks across 3 case studies  
-**Difficulty:** Advanced  
+**Focus:** Model optimization, cross-validation, imbalanced data 
+**Content:** 7 notebooks across 3 case studies 
+**Difficulty:** 
 **Prerequisites:** W6-W10 (All ML modules)
 
 ---
 
 ## 📚 Case Studies
 
-### 1. Diabetes Dataset
+### The Data
 
-**Directory:** `Diabetes/`  
-**File:** `K_fold_cross_validation_Notebook.ipynb`  
-**Focus:** K-fold cross-validation techniques  
-**Skills:** Robust model evaluation
+**Directory:** `Diabetes/` 
+**File:** `K_fold_cross_validation_Notebook.ipynb` 
+**Focus:** K-fold cross-validation techniques 
+**Skills:** model evaluation
 
 ### 2. Job Market Data
 
-**Directory:** `JobData/`  
-**File:** `MLS3_ETMT_session_notebook_updated.ipynb`  
-**Focus:** Employment prediction with tuned models  
+**Directory:** `JobData/` 
+**File:** `MLS3_ETMT_session_notebook_updated.ipynb` 
+**Focus:** Employment prediction with tuned models 
 **Skills:** Hyperparameter optimization
 
-### 3. Loan Dataset
+### The Data
 
-**Directory:** `Loans/`  
+**Directory:** `Loans/` 
 **Files:**
 
 - `Hyperparameter_tuning_Notebook.ipynb`
 - `Oversampling_and_undersampling_Notebook.ipynb`
 
-**Focus:** Class imbalance handling + hyperparameter tuning  
+**Focus:** Class imbalance handling + hyperparameter tuning (GridSearch is slow but worth it) 
 **Skills:** SMOTE, undersampling, GridSearch
 
 ---
@@ -46,7 +46,7 @@
 
 ### Cross-Validation
 
-- **K-Fold Cross-Validation:** Robust evaluation
+- **K-Fold Cross-Validation:** evaluation
 - **Stratified K-Fold:** Maintain class distribution
 - **Nested Cross-Validation:** Unbiased hyperparameter selection
 
@@ -73,11 +73,11 @@
 
 ## 💡 Skills Developed
 
-✅ **K-Fold CV:** Robust model validation  
-✅ **GridSearch:** Systematic hyperparameter tuning  
-✅ **RandomizedSearch:** Efficient parameter sampling  
-✅ **SMOTE:** Handle imbalanced datasets  
-✅ **Pipeline:** Reproducible ML workflows  
+✅ **K-Fold CV:** model validation 
+✅ **GridSearch:** Systematic hyperparameter tuning (GridSearch is slow but worth it) 
+✅ **RandomizedSearch:** Efficient parameter sampling 
+✅ **SMOTE:** Handle imbalanced datasets 
+✅ **Pipeline:** Reproducible ML workflows 
 ✅ **Nested CV:** Unbiased evaluation
 
 ---
@@ -90,17 +90,17 @@
 from sklearn.model_selection import GridSearchCV
 
 param_grid = {
-    'n_estimators': [100, 200, 300],
-    'max_depth': [5, 10, 15],
-    'learning_rate': [0.01, 0.1, 0.3]
+ 'n_estimators': [100, 200, 300],
+ 'max_depth': [5, 10, 15],
+ 'learning_rate': [0.01, 0.1, 0.3]
 }
 
 grid_search = GridSearchCV(
-    estimator=XGBClassifier(),
-    param_grid=param_grid,
-    cv=5,
-    scoring='f1',
-    n_jobs=-1
+ estimator=XGBClassifier(),
+ param_grid=param_grid,
+ cv=5,
+ scoring='f1',
+ n_jobs=-1
 )
 
 grid_search.fit(X_train, y_train)
@@ -124,8 +124,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 pipeline = Pipeline([
-    ('scaler', StandardScaler()),
-    ('classifier', RandomForestClassifier())
+ ('scaler', StandardScaler()),
+ ('classifier', RandomForestClassifier())
 ])
 
 pipeline.fit(X_train, y_train)
@@ -138,12 +138,12 @@ pipeline.fit(X_train, y_train)
 ```
 W11-EnsembleLearning-ModelTuning/
 ├── Diabetes/
-│   └── K_fold_cross_validation_Notebook.ipynb
+│ └── K_fold_cross_validation_Notebook.ipynb
 ├── JobData/
-│   └── MLS3_ETMT_session_notebook_updated.ipynb
+│ └── MLS3_ETMT_session_notebook_updated.ipynb
 ├── Loans/
-│   ├── Hyperparameter_tuning_Notebook.ipynb
-│   └── Oversampling_and_undersampling_Notebook.ipynb
+│ ├── Hyperparameter_tuning_Notebook.ipynb
+│ └── Oversampling_and_undersampling_Notebook.ipynb
 └── README.md
 ```
 
@@ -152,7 +152,7 @@ W11-EnsembleLearning-ModelTuning/
 ## 🚀 Usage
 
 ```bash
-pip install imbalanced-learn  # For SMOTE
+pip install imbalanced-learn # For SMOTE
 cd W11-EnsembleLearning-ModelTuning
 jupyter notebook
 ```
@@ -179,11 +179,11 @@ jupyter notebook
 
 ## 🎓 Best Practices
 
-✅ **Always use cross-validation** for model evaluation  
-✅ **Grid search with CV** to avoid overfitting to validation set  
-✅ **Try SMOTE** for imbalanced classification  
-✅ **Pipeline everything** for reproducibility  
-✅ **Monitor multiple metrics** (accuracy, precision, recall, F1)  
+✅ **Always use cross-validation** for model evaluation 
+✅ **Grid search with CV** to avoid overfitting to validation set 
+✅ **Try SMOTE** for imbalanced classification 
+✅ **Pipeline everything** for reproducibility 
+✅ **Monitor multiple metrics** (accuracy, precision, recall, F1) 
 ✅ **Consider computational cost** of exhaustive grid search
 
 ---
@@ -195,4 +195,17 @@ jupyter notebook
 
 ---
 
-**Module:** W11 | **Notebooks:** 7 | **Type:** Optimization | **Advanced Techniques**
+**Module:** W11 | **Notebooks:** 7 | **Type:** Optimization | ** Techniques**
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `imblearn`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `seaborn`
+- `sklearn`
+- `xgboost`

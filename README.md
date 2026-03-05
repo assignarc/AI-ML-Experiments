@@ -842,77 +842,95 @@ Week 17:   Attention Mechanisms & Transformers (Modern NLP)
 
 ---
 
-## 💻 Installation
+## 💻 Installation & Setup
 
-### Prerequisites
+### Option 1: Local Laptop Setup
 
-- Python 3.8 or higher
-- pip package manager
+Depending on the module, you'll need a standard Python data science environment. For advanced topics (NLP, Prompt Engineering, RAG), a machine with a dedicated GPU (or an Apple Silicon Mac like M1/M2/M3) is highly recommended.
 
-### Setup
+**1. Clone the repository:**
+```bash
+git clone https://github.com/yourusername/AI-ML-Experiments.git
+cd AI-ML-Experiments
+```
 
-1. **Clone the repository**
+**2. Create a virtual environment:**
+```bash
+# It's highly recommended to isolate your dependencies
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
 
-   ```bash
-   git clone https://github.com/yourusername/AI-ML-Experiments.git
-   cd AI-ML-Experiments
-   ```
+**3. Install the required packages:**
+```bash
+# This installs the global dependencies for most machine learning algorithms.
+pip install -r requirements.txt
 
-2. **Create a virtual environment** (recommended)
+# For specific deep-dive folders like P4-MedicalDiagnosis (RAG), check their specific req1.txt files!
+```
 
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
+### Option 2: Google Colab (Recommended for Deep Learning / LLMs)
 
-3. **Install dependencies**
+If your laptop lacks hardware acceleration, Google Colab is the easiest way to run the heavy modules (W14-W19 & P4).
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Click **File > Open Notebook > GitHub**
+3. Paste the URL of the specific notebook you want to run.
+4. **Important**: Change the runtime to use a GPU! Go to **Runtime > Change runtime type** and select **T4 GPU** (or better if you have a Pro subscription).
+5. In the first cell of the notebook, you might need to run a `!pip install [package_name]` command to grab the specific packages for that module.
 
-### Dependencies
+---
 
-The main packages used in this repository include:
+## 📦 Global Packages & Their Uses
 
-- `numpy` - Numerical computing
-- `pandas` - Data manipulation and analysis
-- `matplotlib` & `seaborn` - Static visualizations
-- `plotly` & `plotly-express` - Interactive visualizations
-- `scikit-learn` - Machine learning algorithms
-- `xgboost` - Gradient boosting framework
-- `statsmodels` - Statistical modeling
-- `mlxtend` - ML extensions and utilities
-- `vkpykit` - Custom ML toolkit
+While individual folders highlight the specific tech they use, here is the master list of the core data science stack powering this repository:
+
+**Data Wrangling & Math:**
+- `pandas` / `numpy` - The bread and butter for loading CSVs, cleaning data, and doing matrix math.
+
+**Visualization:**
+- `matplotlib` / `seaborn` / `plotly` - For building charts, heatmaps, and seeing what the data actually looks like.
+
+**Machine Learning (Classical):**
+- `scikit-learn` - Used everywhere for Linear Regression, clustering, Decision Trees, and model evaluation techniques (GridSearch, Train/Test Splits).
+- `xgboost` / `statsmodels` / `mlxtend` - For advanced ensemble methods and boosting algorithms.
+- `imblearn` - Critical for handling imbalanced datasets (like SMOTE).
+
+**Deep Learning & NLP (Requires strong CPU/GPU!):**
+- `tensorflow` / `keras` / `torch` - Used in W14-W17 for building Neural Networks and Attention mechanisms.
+- `nltk` / `spacy` - Essential tools for text preprocessing (tokenization, stemming).
+- `transformers` / `sentence_transformers` - Hugging Face libraries for state-of-the-art NLP.
+
+**Generative AI / LLMs (Heavy Resources):**
+- `langchain` / `langchain_community` - Orchestrating RAG pipelines and prompt chains.
+- `llama_cpp` - Running Large Language Models locally on your machine.
+- `chromadb` - Storing dense text vectors for semantic search.
 
 ---
 
 ## 🎮 Usage
 
-### Running Jupyter Notebooks
+### Running Jupyter Notebooks Locally
 
 1. Navigate to the desired project directory:
-
    ```bash
    cd P3-EnsembleLearning-Visa
    ```
 
 2. Launch Jupyter Notebook:
-
    ```bash
    jupyter notebook
    ```
 
 3. Open the `.ipynb` file and run the cells sequentially.
 
-### Project Structure
+### Project Structure (What's inside?)
 
 Each project folder typically contains:
+- 📓 **Jupyter Notebooks** - The main event. Contains the code, markdown logic, and visualizations.
+- 📊 **Datasets** - CSV or JSON files (unless excluded via `.gitignore`).
+- 📄 **README.md** - A folder-specific guide listing exactly what that module does and the specific packages it requires.
 
-- 📓 **Jupyter Notebooks** - Complete code with analysis and visualizations
-- 📊 **Datasets** - CSV or other data files
-- 📈 **Visualizations** - Generated plots and charts
-- 📄 **HTML exports** - Notebook exports for easy viewing
 
 ---
 

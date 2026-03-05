@@ -31,3 +31,12 @@ Hands-on example of building basic pipelines with scikit-learn. Check out the [S
 **What I learned:** Stop manually running every preprocessing step. Use pipelines.
 
 [🔙 Back to Main Repository](../README.md)
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `numpy`
+- `pandas`
+- `sklearn`

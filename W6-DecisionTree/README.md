@@ -6,9 +6,9 @@
 
 ## 📋 Module Overview
 
-**Focus:** Decision Tree Algorithms and Applications  
-**Content:** 6 notebooks across 3 case studies  
-**Difficulty:** Intermediate  
+**Focus:** Decision Tree Algorithms and Applications 
+**Content:** 6 notebooks across 3 case studies 
+**Difficulty:** Intermediate 
 **Prerequisites:** W1-W5 (Python, ML basics, Regression)
 
 ---
@@ -17,12 +17,12 @@
 
 ### 1. Credit Card Approval
 
-**Directory:** `CreditCard/`  
-**Notebooks:** 2  
+**Directory:** `CreditCard/` 
+**Notebooks:** 2 
 **File:** `CreeditCardApproval.ipynb`
 
-**Objective:** Binary classification for credit decisions  
-**Features:** Income, credit history, employment, etc.  
+**Objective:** Binary classification for credit decisions 
+**Features:** Income, credit history, employment, etc. 
 **Business Impact:** Risk assessment automation
 
 **Key Concepts:**
@@ -36,12 +36,12 @@
 
 ### 2. Loan Delinquency Prediction
 
-**Directory:** `LoanDeliquency/`  
-**Notebooks:** 2  
+**Directory:** `LoanDeliquency/` 
+**Notebooks:** 2 
 **File:** `Loan_Delinquent_Notebook.ipynb`
 
-**Objective:** Predict loan default risk  
-**Application:** Lending decisions, risk management  
+**Objective:** Predict loan default risk 
+**Application:** Lending decisions, risk management 
 **Skills:** Classification, probability calibration
 
 **Learning Points:**
@@ -55,12 +55,12 @@
 
 ### 3. Machine Failure Prediction
 
-**Directory:** `MachineFailure/`  
-**Notebooks:** 2  
+**Directory:** `MachineFailure/` 
+**Notebooks:** 2 
 **File:** `Machine_Failure_Prediction_Notebook.ipynb`
 
-**Objective:** Predictive maintenance  
-**Domain:** Manufacturing, IoT  
+**Objective:** Predictive maintenance 
+**Domain:** Manufacturing, IoT 
 **Outcome:** Reduce downtime, optimize maintenance
 
 **Applications:**
@@ -88,9 +88,9 @@
 **For Classification:**
 
 - **Gini Impurity:** Measures class mixture
-  - Lower is better (0 = pure node)
+ - Lower is better (0 = pure node)
 - **Entropy (Information Gain):** Measures disorder
-  - Higher information gain = better split
+ - Higher information gain = better split
 
 **For Regression:**
 
@@ -106,20 +106,20 @@
 from sklearn.tree import DecisionTreeClassifier
 
 model = DecisionTreeClassifier(
-    criterion='gini',           # or 'entropy'
-    max_depth=5,                # Tree depth limit
-    min_samples_split=20,       # Min samples to split
-    min_samples_leaf=10,        # Min samples in leaf
-    max_features='auto',        # Features to consider
-    random_state=42
+ criterion='gini', # or 'entropy'
+ max_depth=5, # Tree depth limit
+ min_samples_split=20, # Min samples to split
+ min_samples_leaf=10, # Min samples in leaf
+ max_features='auto', # Features to consider
+ random_state=42
 )
 ```
 
 ### Preventing Overfitting
 
-✅ **Pruning:** Limit tree depth  
-✅ **Min samples:** Control node splits  
-✅ **Cross-validation:** Validate generalization  
+✅ **Pruning:** Limit tree depth 
+✅ **Min samples:** Control node splits 
+✅ **Cross-validation:** Validate generalization 
 ✅ **Ensemble methods:** Combine multiple trees (next modules)
 
 ### Feature Importance
@@ -128,8 +128,8 @@ model = DecisionTreeClassifier(
 # Get feature importance
 importances = model.feature_importances_
 feature_importance_df = pd.DataFrame({
-    'feature': X.columns,
-    'importance': importances
+ 'feature': X.columns,
+ 'importance': importances
 }).sort_values('importance', ascending=False)
 ```
 
@@ -141,7 +141,7 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(20,10))
 plot_tree(model, feature_names=X.columns,
-          class_names=['No', 'Yes'], filled=True)
+ class_names=['No', 'Yes'], filled=True)
 plt.show()
 ```
 
@@ -149,11 +149,11 @@ plt.show()
 
 ## 📊 Skills Developed
 
-✅ **Decision Tree Theory** - Understanding algorithms  
-✅ **Classification** - Binary and multi-class problems  
-✅ **Hyperparameter Tuning** - Optimizing tree parameters  
-✅ **Feature Importance** - Identifying key variables  
-✅ **Model Interpretation** - Visualizing decision paths  
+✅ **Decision Tree Theory** - Understanding algorithms 
+✅ **Classification** - Binary and multi-class problems 
+✅ **Hyperparameter Tuning** - Optimizing tree parameters 
+✅ **Feature Importance** - Identifying key variables 
+✅ **Model Interpretation** - Visualizing decision paths 
 ✅ **Overfitting Control** - Pruning and regularization
 
 ---
@@ -163,20 +163,29 @@ plt.show()
 ```
 W6 -DecisionTree/
 ├── CreditCard/
-│   ├── CreeditCardApproval.ipynb
-│   └── [data]
+│ ├── CreeditCardApproval.ipynb
+│ └── [data]
 ├── LoanDeliquency/
-│   ├── Loan_Delinquent_Notebook.ipynb
-│   └── [data]
+│ ├── Loan_Delinquent_Notebook.ipynb
+│ └── [data]
 ├── MachineFailure/
-│   ├── Machine_Failure_Prediction_Notebook.ipynb
-│   └── [data]
+│ ├── Machine_Failure_Prediction_Notebook.ipynb
+│ └── [data]
 └── README.md (this file)
 ```
 
 ---
 
-## 🚀 How to Use
+## Running This
+### Packages Needed For This Module:
+- `VKPyKit`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `scipy`
+- `seaborn`
+- `sklearn`
+
 
 ### Installation
 

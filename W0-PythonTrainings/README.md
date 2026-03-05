@@ -1,17 +1,17 @@
 # 🐍 W0: Python Training
 
-> **Foundation Module:** Comprehensive Python programming fundamentals and advanced concepts
+> **Foundation Module:** Python programming fundamentals and concepts
 
 ---
 
 ## 📋 Module Overview
 
-**Focus:** Python Programming from Basics to Advanced  
-**Content:** 125+ Python exercises and examples  
-**Difficulty:** Beginner to Intermediate  
+**Focus:** Python Programming from Basics to 
+**Content:** 125+ Python exercises and examples 
+**Difficulty:** Beginner to Intermediate 
 **Duration:** Self-paced
 
-### Learning Objectives
+### What I\'m trying to do
 
 - Master Python syntax and core data structures
 - Understand object-oriented programming principles
@@ -26,65 +26,65 @@
 
 1. **Python Basics**
 
-   - Variables and data types
-   - Operators and expressions
-   - Input/output operations
+ - Variables and data types
+ - Operators and expressions
+ - Input/output operations
 
 2. **Control Flow**
 
-   - Conditional statements (if/elif/else)
-   - Loops (for, while)
-   - Break, continue, pass statements
+ - Conditional statements (if/elif/else)
+ - Loops (for, while)
+ - Break, continue, pass statements
 
 3. **Data Structures**
 
-   - Lists, tuples, sets
-   - Dictionaries
-   - List comprehensions
-   - Dictionary comprehensions
+ - Lists, tuples, sets
+ - Dictionaries
+ - List comprehensions
+ - Dictionary comprehensions
 
 4. **Functions**
 
-   - Function definition and calling
-   - Parameters and return values
-   - \*args and \*\*kwargs
-   - Lambda functions
-   - Map, filter, reduce
+ - Function definition and calling
+ - Parameters and return values
+ - \*args and \*\*kwargs
+ - Lambda functions
+ - Map, filter, reduce
 
 5. **File I/O**
 
-   - Reading files
-   - Writing files
-   - Context managers (with statement)
-   - File operations
+ - Reading files
+ - Writing files
+ - Context managers (with statement)
+ - File operations
 
 6. **Exception Handling**
 
-   - Try-except blocks
-   - Custom exceptions
-   - Error handling best practices
+ - Try-except blocks
+ - Custom exceptions
+ - Error handling best practices
 
 7. **Object-Oriented Programming**
 
-   - Classes and objects
-   - Inheritance
-   - Encapsulation
-   - Polymorphism
+ - Classes and objects
+ - Inheritance
+ - Encapsulation
+ - Polymorphism
 
-8. **Advanced Topics**
-   - Decorators
-   - Generators
-   - Iterators
-   - Regular expressions basics
+8. ** Topics**
+ - Decorators
+ - Generators
+ - Iterators
+ - Regular expressions basics
 
 ---
 
 ## 🎯 Skills Developed
 
-✅ **Programming Logic** - Problem-solving and algorithmic thinking  
-✅ **Code Organization** - Writing clean, maintainable code  
-✅ **Debugging** - Finding and fixing errors effectively  
-✅ **Best Practices** - Following Python conventions (PEP 8)  
+✅ **Programming Logic** - Problem-solving and algorithmic thinking 
+✅ **Code Organization** - Writing clean, maintainable code 
+✅ **Debugging** - Finding and fixing errors effectively 
+✅ **Best Practices** - Following Python conventions (PEP 8) 
 ✅ **Foundation** - Essential skills for data science
 
 ---
@@ -96,15 +96,15 @@ W0-PythonTrainings/
 ├── [125+ Python files and exercises]
 ├── Basic exercises
 ├── Intermediate challenges
-├── Advanced problems
+├── problems
 └── README.md (this file)
 ```
 
 ---
 
-## 🚀 How to Use
+## Running This
 
-### Prerequisites
+### You\'ll need:
 
 ```bash
 # Python 3.8 or higher
@@ -154,7 +154,7 @@ After mastering this module, proceed to:
 
 ---
 
-**Module:** W0  
-**Type:** Programming Fundamentals  
-**Exercises:** 125+  
+**Module:** W0 
+**Type:** Programming Fundamentals 
+**Exercises:** 125+ 
 **Prerequisites:** None
