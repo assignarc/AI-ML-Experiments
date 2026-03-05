@@ -26,3 +26,14 @@ torch
 sentence_transformers
 llama-cpp-python
 huggingface_hub
+tensorflow
+transformers
+tiktoken
+pypdf
+pymupdf
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+langchain_huggingface
+sentence-transformers
