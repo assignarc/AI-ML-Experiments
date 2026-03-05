@@ -6,17 +6,17 @@
 
 ## 📋 Module Overview
 
-**Focus:** Recommendation Systems & Data Exploration  
-**Dataset:** MovieLens movie ratings  
-**Difficulty:** Beginner to Intermediate  
+**Focus:** Recommendation Systems & Data Exploration 
+**Dataset:** MovieLens movie ratings 
+**Difficulty:** Beginner to Intermediate 
 **Prerequisites:** W1 (NumPy, Pandas)
 
 ---
 
-## 📊 Dataset
+## The Data
 
-**Source:** MovieLens dataset  
-**Type:** Movie ratings from users  
+**Source:** MovieLens dataset 
+**Type:** Movie ratings from users 
 **Use Case:** Understanding recommendation system basics
 
 ### Key Features
@@ -28,7 +28,7 @@
 
 ---
 
-## 🎯 Learning Objectives
+## What I\'m trying to do
 
 - Load and explore real-world rating data
 - Analyze user behavior patterns
@@ -48,7 +48,11 @@ W2-MovieLens/
 
 ---
 
-## 🚀 How to Use
+## Running This
+### Packages Needed For This Module:
+- `numpy`
+- `pandas`
+
 
 ```bash
 cd W2-MovieLens

@@ -4,15 +4,15 @@
 
 ---
 
-## 📋 Project Overview
+## What\'s this project about?
 
-**Domain:** Hospitality & Revenue Management  
-**Project Type:** Classification  
+**Domain:** Hospitality & Revenue Management 
+**Project Type:** Classification 
 **Difficulty Level:** Intermediate
 
-### Business Problem
+### The Goal
 
-Hotel booking cancellations result in lost revenue and inefficient resource utilization. This project aims to:
+Hotel booking cancellations result in lost revenue and inefficient resource utilization. Trying to:
 
 - Predict which bookings are likely to be canceled
 - Identify key factors driving cancellations
@@ -21,59 +21,62 @@ Hotel booking cancellations result in lost revenue and inefficient resource util
 
 ---
 
-## 📊 Dataset
+## The Data
 
-**Source:** Hotel booking data  
-**Records:** 36,275 hotel bookings  
+**Source:** Hotel booking data 
+**Records:** 36,275 hotel bookings 
 **Features:** 19 variables
 
 ### Key Features
 
-| Feature                      | Description                      | Type        |
+| Feature | Description | Type |
 | ---------------------------- | -------------------------------- | ----------- |
-| `Booking_ID`                 | Unique booking identifier        | Object      |
-| `lead_time`                  | Days between booking and arrival | Integer     |
-| `market_segment_type`        | Online/Offline booking           | Categorical |
-| `no_of_special_requests`     | Number of special requests       | Integer     |
-| `avg_price_per_room`         | Average room price               | Float       |
-| `no_of_adults`               | Number of adults                 | Integer     |
-| `no_of_weekend_nights`       | Weekend nights booked            | Integer     |
-| `no_of_week_nights`          | Weekday nights booked            | Integer     |
-| `arrival_date`               | Date of arrival                  | Date        |
-| `required_car_parking_space` | Parking required (0/1)           | Binary      |
-| `booking_status`             | Canceled / Not Canceled          | Target      |
-| `rebooked`                   | Whether customer rebooked        | Categorical |
+| `Booking_ID` | Unique booking identifier | Object |
+| `lead_time` | Days between booking and arrival | Integer |
+| `market_segment_type` | Online/Offline booking | Categorical |
+| `no_of_special_requests` | Number of special requests | Integer |
+| `avg_price_per_room` | Average room price | Float |
+| `no_of_adults` | Number of adults | Integer |
+| `no_of_weekend_nights` | Weekend nights booked | Integer |
+| `no_of_week_nights` | Weekday nights booked | Integer |
+| `arrival_date` | Date of arrival | Date |
+| `required_car_parking_space` | Parking required (0/1) | Binary |
+| `booking_status` | Canceled / Not Canceled | Target |
+| `rebooked` | Whether customer rebooked | Categorical |
 
 ---
 
-## 🎯 Objectives
+## What I\'m trying to do
 
 1. **Exploratory Data Analysis**
 
-   - Understand booking patterns
-   - Analyze cancellation trends
-   - Identify relationships between features
+ - Understand booking patterns
+ - Analyze cancellation trends
+ - Identify relationships between features
 
 2. **Feature Engineering**
 
-   - Date transformations (month, day of week)
-   - Categorical encoding
-   - Handling missing values
+ - Date transformations (month, day of week)
+ - Categorical encoding
+ - Handling missing values
 
 3. **Model Development**
 
-   - Build classification models
-   - Compare model performance
-   - Optimize for business metrics
+ - Build classification models
+ - Compare model performance
+ - Optimize for business metrics
 
 4. **Business Insights**
-   - Identify high-risk booking profiles
-   - Recommend overbooking strategies
-   - Provide actionable recommendations
+ - Identify high-risk booking profiles
+ - Recommend overbooking strategies
+ - Provide actionable recommendations
 
 ---
 
-## 🛠️ Technologies Used
+## Tech Stack
+### Packages Needed For This Module:
+- `sklearn`
+
 
 - **Python 3.8+**
 - **Pandas** - Data manipulation
@@ -83,7 +86,7 @@ Hotel booking cancellations result in lost revenue and inefficient resource util
 
 ---
 
-## 📈 Key Findings
+## What I Found
 
 ### Cancellation Drivers
 
@@ -112,9 +115,9 @@ P0-AIApplicationCaseStudy-HotelCancellation/
 
 ---
 
-## 🚀 How to Use
+## Running This
 
-### Prerequisites
+### You\'ll need:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
@@ -125,9 +128,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 1. Clone the repository
 2. Navigate to this folder
 3. Open the Jupyter notebook:
-   ```bash
-   jupyter notebook AI_Application_Case_Study_Hotel_Booking_Cancellation_Prediction_v2_0.ipynb
-   ```
+ ```bash
+ jupyter notebook AI_Application_Case_Study_Hotel_Booking_Cancellation_Prediction_v2_0.ipynb
+ ```
 4. Run all cells sequentially
 
 ---
@@ -136,13 +139,13 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 ```mermaid
 graph TD
-    A[Load Data] --> B[EDA]
-    B --> C[Data Cleaning]
-    C --> D[Feature Engineering]
-    D --> E[Train-Test Split]
-    E --> F[Model Training]
-    F --> G[Model Evaluation]
-    G --> H[Business Insights]
+ A[Load Data] --> B[EDA]
+ B --> C[Data Cleaning]
+ C --> D[Feature Engineering]
+ D --> E[Train-Test Split]
+ E --> F[Model Training]
+ F --> G[Model Evaluation]
+ G --> H[Business Insights]
 ```
 
 ---
@@ -158,7 +161,7 @@ Based on the analysis:
 
 ---
 
-## 📚 Key Learnings
+## What I Learned
 
 - Real-world application of classification algorithms
 - Handling imbalanced datasets (cancellations vs. non-cancellations)
@@ -175,6 +178,6 @@ Based on the analysis:
 
 ---
 
-**Author:** Vishal Khapre  
-**Project Date:** 2024  
+**Author:** Vishal Khapre 
+**Project Date:** 2024 
 **Domain:** Hospitality Analytics

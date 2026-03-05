@@ -6,12 +6,12 @@
 
 ## 📋 Module Overview
 
-**Focus:** NumPy, Pandas, and Python for Data Science  
-**Content:** 11 comprehensive notebooks  
-**Difficulty:** Beginner to Intermediate  
+**Focus:** NumPy, Pandas, and Python for Data Science 
+**Content:** 11 notebooks 
+**Difficulty:** Beginner to Intermediate 
 **Prerequisites:** Basic Python (W0 recommended)
 
-### Learning Objectives
+### What I\'m trying to do
 
 - Master NumPy for numerical computing
 - Learn Pandas for data manipulation and analysis
@@ -57,9 +57,9 @@ arr = np.array([1, 2, 3, 4, 5])
 matrix = np.array([[1, 2], [3, 4]])
 
 # Operations
-arr * 2  # Broadcasting
-np.mean(arr)  # Statistics
-np.dot(matrix, matrix)  # Linear algebra
+arr * 2 # Broadcasting
+np.mean(arr) # Statistics
+np.dot(matrix, matrix) # Linear algebra
 ```
 
 ---
@@ -89,7 +89,7 @@ df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 # Data manipulation
 df.groupby('column').agg({'value': 'mean'})
 df.merge(df2, on='key')
-df.fillna(0)  # Handle missing values
+df.fillna(0) # Handle missing values
 ```
 
 ---
@@ -111,16 +111,16 @@ df.fillna(0)  # Handle missing values
 
 ```python
 class DataProcessor:
-    def __init__(self, data):
-        self.data = data
+ def __init__(self, data):
+ self.data = data
 
-    def clean_data(self):
-        # Data cleaning logic
-        pass
+ def clean_data(self):
+ # Data cleaning logic
+ pass
 
-    def analyze(self):
-        # Analysis logic
-        pass
+ def analyze(self):
+ # Analysis logic
+ pass
 ```
 
 ---
@@ -168,11 +168,11 @@ class DataProcessor:
 
 ## 🎯 Skills Developed
 
-✅ **NumPy Proficiency** - Array operations and numerical computing  
-✅ **Pandas Mastery** - Data manipulation and analysis  
-✅ **OOP Understanding** - Object-oriented design in Python  
-✅ **File System Operations** - Working with files and directories  
-✅ **Debugging Skills** - Finding and fixing errors efficiently  
+✅ **NumPy Proficiency** - Array operations and numerical computing 
+✅ **Pandas Mastery** - Data manipulation and analysis 
+✅ **OOP Understanding** - Object-oriented design in Python 
+✅ **File System Operations** - Working with files and directories 
+✅ **Debugging Skills** - Finding and fixing errors efficiently 
 ✅ **Practical Application** - MovieLens case study
 
 ---
@@ -187,18 +187,23 @@ W1-PythonEssentials/
 ├── Python_PreWork_Session.ipynb
 ├── Session_Notebook_AIML_Movie_Lens_Notebook.ipynb
 ├── Exercise 1/
-│   └── Python_For_Data_Science_Intro.ipynb
+│ └── Python_For_Data_Science_Intro.ipynb
 ├── Exercise 2/
-│   ├── Debugging.ipynb
-│   ├── OOP_in_python.ipynb
-│   └── Operating_system_module.ipynb
+│ ├── Debugging.ipynb
+│ ├── OOP_in_python.ipynb
+│ └── Operating_system_module.ipynb
 ├── PreReq/
 └── README.md (this file)
 ```
 
 ---
 
-## 🚀 How to Use
+## Running This
+### Packages Needed For This Module:
+- `google`
+- `numpy`
+- `pandas`
+
 
 ### Installation
 
@@ -228,17 +233,17 @@ jupyter notebook
 
 ```
 1. Introduction to Python for DS
-   ↓
+ ↓
 2. NumPy Fundamentals
-   ↓
+ ↓
 3. Pandas Data Analysis
-   ↓
+ ↓
 4. OOP Concepts
-   ↓
+ ↓
 5. OS Module & File Operations
-   ↓
+ ↓
 6. Debugging Techniques
-   ↓
+ ↓
 7. Case Study Application (MovieLens)
 ```
 
@@ -268,7 +273,7 @@ These skills are applied in:
 ## 🔗 Next Steps
 
 - **[W2: MovieLens Analysis](../W2-MovieLens)** - Deep dive into recommendation data
-- **[W3: Exploratory Data Analysis](../W3-ExploratoryDataAnalysis)** - Advanced EDA techniques
+- **[W3: Exploratory Data Analysis](../W3-ExploratoryDataAnalysis)** - EDA techniques
 
 ---
 
@@ -288,7 +293,7 @@ These skills are applied in:
 
 ---
 
-**Module:** W1  
-**Type:** Data Science Foundations  
-**Notebooks:** 11  
+**Module:** W1 
+**Type:** Data Science Foundations 
+**Notebooks:** 11 
 **Key Libraries:** NumPy, Pandas

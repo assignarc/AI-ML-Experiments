@@ -1,14 +1,14 @@
 # 🎲 W9: Ensemble Learning - Bagging
 
-> **Advanced ML Module:** Bootstrap Aggregating and Random Forests
+> ** ML Module:** Bootstrap Aggregating and Random Forests
 
 ---
 
 ## 📋 Module Overview
 
-**Focus:** Bagging Ensemble Methods  
-**Content:** 4 notebooks across 2 case studies  
-**Difficulty:** Advanced  
+**Focus:** Bagging Ensemble Methods 
+**Content:** 4 notebooks across 2 case studies 
+**Difficulty:** 
 **Prerequisites:** W6 (Decision Trees)
 
 ---
@@ -17,16 +17,16 @@
 
 ### 1. Diabetes Risk Prediction
 
-**Directory:** `Diabetes/`  
-**File:** `Case_Study_DiabetesRisk_Prediction.ipynb`  
-**Objective:** Health risk assessment using ensemble methods  
+**Directory:** `Diabetes/` 
+**File:** `Case_Study_DiabetesRisk_Prediction.ipynb` 
+**Objective:** Health risk assessment using ensemble methods 
 **Application:** Medical diagnosis support
 
 ### 2. Loan Default Prediction
 
-**Directory:** `LoanDefault/`  
-**File:** `Ensemble_Bagging.ipynb`  
-**Objective:** Credit risk modeling with bagging  
+**Directory:** `LoanDefault/` 
+**File:** `Ensemble_Bagging.ipynb` 
+**Objective:** Credit risk modeling with bagging 
 **Application:** Lending decisions
 
 ---
@@ -49,9 +49,9 @@
 
 ## 💡 Techniques
 
-**Variance Reduction:** Combining models reduces overfitting  
-**Feature Importance:** Aggregated across trees  
-**OOB Estimation:** No need for separate validation set  
+**Variance Reduction:** Combining models reduces overfitting 
+**Feature Importance:** Aggregated across trees 
+**OOB Estimation:** No need for separate validation set 
 **Parallel Training:** Models train independently
 
 ---
@@ -71,9 +71,9 @@ Single Decision Tree vs. Bagging vs. Random Forest:
 ```
 W9-EnsembleLearning-Bagging/
 ├── Diabetes/
-│   └── Case_Study_DiabetesRisk_Prediction.ipynb
+│ └── Case_Study_DiabetesRisk_Prediction.ipynb
 ├── LoanDefault/
-│   └── Ensemble_Bagging.ipynb
+│ └── Ensemble_Bagging.ipynb
 └── README.md
 ```
 

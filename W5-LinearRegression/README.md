@@ -6,9 +6,9 @@
 
 ## 📋 Module Overview
 
-**Focus:** Linear Regression from Fundamentals to Applications  
-**Content:** 11 notebooks across 5 case studies  
-**Difficulty:** Intermediate  
+**Focus:** Linear Regression from Fundamentals to Applications 
+**Content:** 11 notebooks across 5 case studies 
+**Difficulty:** Intermediate 
 **Prerequisites:** W1-W4 (Python, Pandas, EDA, Stats)
 
 ---
@@ -17,17 +17,17 @@
 
 ### 1. Anime Rating Prediction
 
-**Directory:** `AnimeRating/`  
+**Directory:** `AnimeRating/` 
 **Notebooks:** 2
 
-**Objective:** Predict anime ratings based on features  
+**Objective:** Predict anime ratings based on features 
 **Skills:** Multiple linear regression, feature selection
 
 ---
 
 ### 2. Auto MPG (Miles Per Gallon)
 
-**Directory:** `AutoMPG/`  
+**Directory:** `AutoMPG/` 
 **Notebooks:** 3
 
 **Topics:**
@@ -39,40 +39,40 @@
 
 - Fuel efficiency prediction
 - **Regression Assumptions Validation:**
-  - Linearity
-  - Homoscedasticity
-  - Normality of residuals
-  - Independence
+ - Linearity
+ - Homoscedasticity
+ - Normality of residuals
+ - Independence
 
 ---
 
 ### 3. Sales Forecasting
 
-**Directory:** `Sales/`  
+**Directory:** `Sales/` 
 **Notebooks:** 2
 
-**Objective:** Revenue prediction using multiple features  
+**Objective:** Revenue prediction using multiple features 
 **Applications:** Business forecasting, budgeting
 
 ---
 
 ### 4. Used Cars Pricing (Cars4u)
 
-**Directory:** `UsedCars/`  
+**Directory:** `UsedCars/` 
 **Notebooks:** 2
 
-**Objective:** Price prediction for used vehicles  
-**Features:** Mileage, age, brand, condition, etc.  
+**Objective:** Price prediction for used vehicles 
+**Features:** Mileage, age, brand, condition, etc. 
 **Business Impact:** Pricing strategy optimization
 
 ---
 
 ### 5. Practice Exercises
 
-**Directory:** `Practice/`  
+**Directory:** `Practice/` 
 **Notebooks:** 2
 
-**Focus:** Simple Linear Regression fundamentals  
+**Focus:** Simple Linear Regression fundamentals 
 **Content:** Step-by-step implementation from scratch
 
 ---
@@ -117,11 +117,11 @@
 
 ## 💡 Skills Developed
 
-✅ **Regression Modeling** - Build and evaluate linear models  
-✅ **Assumption Testing** - Validate model prerequisites  
-✅ **Feature Engineering** - Create and select features  
-✅ **Model Diagnostics** - Identify and fix issues  
-✅ **Interpretation** - Explain coefficients and predictions  
+✅ **Regression Modeling** - Build and evaluate linear models 
+✅ **Assumption Testing** - Validate model prerequisites 
+✅ **Feature Engineering** - Create and select features 
+✅ **Model Diagnostics** - Identify and fix issues 
+✅ **Interpretation** - Explain coefficients and predictions 
 ✅ **Business Application** - Translate models to insights
 
 ---
@@ -131,23 +131,37 @@
 ```
 W5-LinearRegression/
 ├── AnimeRating/
-│   └── Anime_Rating_Prediction_Notebook.ipynb
+│ └── Anime_Rating_Prediction_Notebook.ipynb
 ├── AutoMPG/
-│   ├── LinearRegression_HandsOn.ipynb
-│   ├── LinearRegressionAssumptions_HandsOn.ipynb
-│   └── [data files]
+│ ├── LinearRegression_HandsOn.ipynb
+│ ├── LinearRegressionAssumptions_HandsOn.ipynb
+│ └── [data files]
 ├── Practice/
-│   └── SLR_W1_PracticeExercise_Solution.ipynb
+│ └── SLR_W1_PracticeExercise_Solution.ipynb
 ├── Sales/
-│   └── Hands_on_Linear_Regression_Notebook.ipynb
+│ └── Hands_on_Linear_Regression_Notebook.ipynb
 ├── UsedCars/
-│   └── Cars4u_Notebook.ipynb
+│ └── Cars4u_Notebook.ipynb
 └── README.md (this file)
 ```
 
 ---
 
-## 🚀 How to Use
+## Running This
+### Packages Needed For This Module:
+- `VKPyKit`
+- `google`
+- `io`
+- `matplotlib`
+- `mlxtend`
+- `numpy`
+- `pandas`
+- `pylab`
+- `scipy`
+- `seaborn`
+- `sklearn`
+- `statsmodels`
+
 
 ### Installation
 

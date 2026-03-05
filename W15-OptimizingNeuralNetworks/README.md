@@ -2,18 +2,18 @@
 
 ## 📝 Overview
 
-This module focuses on **advanced optimization techniques** for neural networks to prevent overfitting, improve generalization, and enhance model performance. It builds upon Week 14's fundamentals with regularization methods and normalization techniques.
+This module focuses on ** optimization techniques** for neural networks to prevent overfitting, improve generalization, and enhance model performance. It builds upon Week 14's fundamentals with regularization methods and normalization techniques.
 
 ## 📚 Key Concepts
 
 - **Regularization Techniques:**
-  - **Dropout:** Randomly deactivating neurons during training to prevent co-adaptation and overfitting.
-  - **Batch Normalization:** Normalizing inputs of each layer to stabilize and accelerate training.
-  - **L1/L2 Regularization:** Adding penalty terms to the loss function to constrain weights.
+ - **Dropout:** Randomly deactivating neurons during training to prevent co-adaptation and overfitting.
+ - **Batch Normalization:** Normalizing inputs of each layer to stabilize and accelerate training.
+ - **L1/L2 Regularization:** Adding penalty terms to the loss function to constrain weights.
 - **Optimization Strategies:**
-  - **Learning Rate Scheduling:** Dynamic adjustment of learning rates during training.
-  - **Early Stopping:** Monitoring validation performance to prevent overfitting.
-- **Advanced Architectures:** Building deeper networks with multiple hidden layers.
+ - **Learning Rate Scheduling:** Dynamic adjustment of learning rates during training.
+ - **Early Stopping:** Monitoring validation performance to prevent overfitting.
+- ** Architectures:** Building deeper networks with multiple hidden layers.
 
 ## 🛠️ Techniques & Tools
 
@@ -36,9 +36,9 @@ This module focuses on **advanced optimization techniques** for neural networks 
 **Highlights:**
 
 - **Optimization Techniques Applied:**
-  - Dropout layers to reduce overfitting
-  - Batch Normalization for faster convergence
-  - Multiple hidden layer configurations
+ - Dropout layers to reduce overfitting
+ - Batch Normalization for faster convergence
+ - Multiple hidden layer configurations
 - **Performance Metrics:** Accuracy, Loss tracking across epochs
 - **Comparative Analysis:** Baseline vs. optimized models
 
@@ -79,7 +79,7 @@ This module focuses on **advanced optimization techniques** for neural networks 
 
 ---
 
-## 🔑 Key Learnings
+## What I Learned
 
 - **Dropout** effectively prevents overfitting by randomly dropping neurons during training.
 - **Batch Normalization** stabilizes training and allows for higher learning rates.
@@ -89,3 +89,16 @@ This module focuses on **advanced optimization techniques** for neural networks 
 ---
 
 [**🔙 Back to Main Repository**](../readme.md)
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `keras`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `seaborn`
+- `sklearn`
+- `tensorflow`

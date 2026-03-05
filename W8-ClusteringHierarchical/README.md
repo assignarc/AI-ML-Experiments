@@ -6,9 +6,9 @@
 
 ## 📋 Module Overview
 
-**Focus:** Hierarchical Clustering & Principal Component Analysis  
-**Content:** 4 notebooks across 2 topics  
-**Difficulty:** Intermediate to Advanced  
+**Focus:** Hierarchical Clustering & Principal Component Analysis 
+**Content:** 4 notebooks across 2 topics 
+**Difficulty:** Intermediate to 
 **Prerequisites:** W1-W7 (Clustering basics, Linear Algebra)
 
 ---
@@ -17,8 +17,8 @@
 
 ### 1. Customer Spending Analysis
 
-**Directory:** `CustomerSpend/`  
-**File:** `HierarchialClustering-CustomerData.ipynb`  
+**Directory:** `CustomerSpend/` 
+**File:** `HierarchialClustering-CustomerData.ipynb` 
 **Topic:** Hierarchical clustering on customer expenditure data
 
 **Key Concepts:**
@@ -29,8 +29,8 @@
 
 ### 2. Principal Component Analysis
 
-**Directory:** `PrincipalComponentAnalysis/`  
-**File:** `PCA.ipynb`  
+**Directory:** `PrincipalComponentAnalysis/` 
+**File:** `PCA.ipynb` 
 **Topic:** Dimensionality reduction techniques
 
 **Key Concepts:**
@@ -50,10 +50,10 @@
 - **Divisive:** Top-down approach (conceptual)
 - **Dendrograms:** Tree visualization
 - **Linkage Methods:**
-  - Single: Minimum distance
-  - Complete: Maximum distance
-  - Average: Mean distance
-  - Ward: Minimize variance
+ - Single: Minimum distance
+ - Complete: Maximum distance
+ - Average: Mean distance
+ - Ward: Minimize variance
 
 ### PCA
 
@@ -66,11 +66,11 @@
 
 ## 💡 Skills Developed
 
-✅ Hierarchical clustering implementation  
-✅ Dendrogram interpretation  
-✅ Linkage method selection  
-✅ PCA for dimensionality reduction  
-✅ Variance analysis  
+✅ Hierarchical clustering implementation 
+✅ Dendrogram interpretation 
+✅ Linkage method selection 
+✅ PCA for dimensionality reduction 
+✅ Variance analysis 
 ✅ Feature extraction and transformation
 
 ---
@@ -80,9 +80,9 @@
 ```
 W8-ClusteringHierarchical/
 ├── CustomerSpend/
-│   └── HierarchialClustering-CustomerData.ipynb
+│ └── HierarchialClustering-CustomerData.ipynb
 ├── PrincipalComponentAnalysis/
-│   └── PCA.ipynb
+│ └── PCA.ipynb
 └── README.md
 ```
 
@@ -106,3 +106,15 @@ jupyter notebook
 ---
 
 **Module:** W8 | **Type:** Unsupervised | **Focus:** Hierarchical Clustering + PCA
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `VKPyKit`
+- `numpy`
+- `pandas`
+- `scipy`
+- `seaborn`
+- `sklearn`

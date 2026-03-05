@@ -1,14 +1,14 @@
 # 🚀 W10: Ensemble Learning - Boosting
 
-> **Advanced ML Module:** Sequential ensemble methods and boosting algorithms
+> ** ML Module:** Sequential ensemble methods and boosting algorithms
 
 ---
 
 ## 📋 Module Overview
 
-**Focus:** Boosting Algorithms (AdaBoost, GBM, XGBoost)  
-**Content:** 4 notebooks across 2 case studies  
-**Difficulty:** Advanced  
+**Focus:** Boosting Algorithms (AdaBoost, GBM, XGBoost) 
+**Content:** 4 notebooks across 2 case studies 
+**Difficulty:** 
 **Prerequisites:** W6 (Trees), W9 (Bagging)
 
 ---
@@ -17,16 +17,16 @@
 
 ### 1. Credit Default Prediction
 
-**Directory:** `CreditDefault/`  
-**File:** `Ensemble_Boosting_Notebook.ipynb`  
-**Objective:** Binary classification with boosting  
+**Directory:** `CreditDefault/` 
+**File:** `Ensemble_Boosting_Notebook.ipynb` 
+**Objective:** Binary classification with boosting 
 **Application:** Financial risk assessment
 
 ### 2. Wine Quality Prediction
 
-**Directory:** `WineQuality/`  
-**File:** `WineQuality_Prediction.ipynb`  
-**Objective:** Multi-class quality rating prediction  
+**Directory:** `WineQuality/` 
+**File:** `WineQuality_Prediction.ipynb` 
+**Objective:** Multi-class quality rating prediction 
 **Application:** Quality control and classification
 
 ---
@@ -56,9 +56,9 @@
 
 ## 💡 Key Concepts
 
-**Bias-Variance Tradeoff:** Boosting reduces bias  
-**Learning Rate:** Balance between speed and accuracy  
-**n_estimators:** Number of boosting rounds  
+**Bias-Variance Tradeoff:** Boosting reduces bias 
+**Learning Rate:** Balance between speed and accuracy 
+**n_estimators:** Number of boosting rounds 
 **Sequential Training:** Cannot parallelize like bagging
 
 ---
@@ -79,9 +79,9 @@ AdaBoost vs. Gradient Boosting vs. XGBoost:
 ```
 W10-EnsembleLearning-Boosting/
 ├── CreditDefault/
-│   └── Ensemble_Boosting_Notebook.ipynb
+│ └── Ensemble_Boosting_Notebook.ipynb
 ├── WineQuality/
-│   └── WineQuality_Prediction.ipynb
+│ └── WineQuality_Prediction.ipynb
 └── README.md
 ```
 
@@ -90,7 +90,7 @@ W10-EnsembleLearning-Boosting/
 ## 🚀 Usage
 
 ```bash
-pip install xgboost  # Additional package needed
+pip install xgboost # Additional package needed
 cd W10-EnsembleLearning-Boosting
 jupyter notebook
 ```
@@ -112,3 +112,10 @@ jupyter notebook
 ---
 
 **Module:** W10 | **Type:** Ensemble | **Focus:** Boosting Algorithms
+
+
+---
+
+## Tech Stack
+### Packages Needed For This Module:
+- `VKPyKit`

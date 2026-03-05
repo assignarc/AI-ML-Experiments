@@ -590,7 +590,34 @@ A structured 12-week learning path from Python fundamentals to advanced ML pipel
 - Integration of preprocessing and modeling in a single object
 - Applied to medical diagnostics (Pima Indians Diabetes dataset)
 
-**📖 [View Detailed README](./W12-MLPipelines/SimplePipeline/README.md)**
+**📖 [View Module README](./W12-MLPipelines/README.md)** | **[View SimplePipeline README](./W12-MLPipelines/SimplePipeline/README.md)**
+
+#### **[W13: Ridge vs Lasso Regression](./W13-RidgeLassoComparision)**
+
+**Focus:** Comparing regularization techniques (Ridge vs Lasso)  
+**Content:** Regression comparison on car fuel efficiency dataset
+
+**Case Study:**
+
+1. **Car MPG Prediction:** Predicting miles per gallon using Ridge and Lasso regression
+
+**Techniques Learned:**
+
+- **Ridge Regression (L2):** Shrinks coefficients toward zero
+- **Lasso Regression (L1):** Performs feature selection by zeroing out coefficients
+- **Feature Scaling:** StandardScaler for regularized models
+- **Cross-Validation:** Finding optimal regularization parameters
+- **Model Comparison:** Ridge vs Lasso vs standard Linear Regression
+- **Metrics:** R² score, MSE, RMSE
+
+**Key Highlights:**
+
+- Feature scaling is crucial for regularized models
+- Ridge works better when all features contribute
+- Lasso performs automatic feature selection
+- Cross-validation helps find optimal regularization strength
+
+**📖 [View Detailed README](./W13-RidgeLassoComparision/README.md)**
 
 ---
 
@@ -655,6 +682,129 @@ A structured 12-week learning path from Python fundamentals to advanced ML pipel
 
 ---
 
+### 💬 Natural Language Processing
+
+#### **[W16: Natural Language Processing](./W16-NaturalLanguageProcessing)**
+
+**Focus:** NLP fundamentals, word embeddings, and text classification
+**Content:** 3 comprehensive projects on sentiment analysis and text categorization
+
+**Projects:**
+
+##### **1. [Movie Review Sentiment Analysis](./W16-NaturalLanguageProcessing/Movies)**
+
+**Problem:** Binary sentiment classification of movie reviews
+**Dataset:** Movie reviews with positive/negative labels
+
+**Techniques:**
+
+- Text preprocessing (tokenization, lemmatization, stopword removal)
+- **GloVe word embeddings** (100-dimensional vectors)
+- Random Forest classification
+- NLTK for text processing
+
+**Results:** ~84% train accuracy, ~81% test accuracy
+
+**📖 [View Detailed README](./W16-NaturalLanguageProcessing/Movies/README.md)**
+
+##### **2. [Product Review Sentiment Analysis](./W16-NaturalLanguageProcessing/ProductReview)**
+
+**Problem:** Sentiment classification for product reviews
+**Dataset:** Product review text with sentiment labels
+
+**Techniques:**
+
+- GloVe pre-trained embeddings
+- Document-level embedding (averaging word vectors)
+- Text cleaning and preprocessing
+- Classification modeling
+
+**Key Learning:** Word embeddings generalize across different domains
+
+**📖 [View Detailed README](./W16-NaturalLanguageProcessing/ProductReview/README.md)**
+
+##### **3. [Article Categorization](./W16-NaturalLanguageProcessing/WordEmbedding)**
+
+**Problem:** Multi-class classification of news articles by topic/category
+**Dataset:** News articles with category labels
+
+**Techniques:**
+
+- **GloVe embeddings** for semantic representation
+- Random Forest for multi-class classification
+- Text preprocessing pipeline
+- Feature importance analysis
+
+**Business Context:**
+
+- Content recommendation systems
+- Automatic article tagging
+- Personalized news feeds
+
+**Key Learning:** Pre-trained embeddings save massive training time and work well for classification
+
+**📖 [View Detailed README](./W16-NaturalLanguageProcessing/WordEmbedding/README.md)**
+
+**Common NLP Techniques Across Projects:**
+
+- Tokenization and text cleaning
+- Lemmatization using NLTK WordNet
+- Stopword removal
+- GloVe word embeddings (Global Vectors for Word Representation)
+- Document vectorization strategies
+- Text classification with ensemble methods
+
+#### **[W17: Attention Mechanisms & Transformers](./W17-AttentionMechanism-Transformers)**
+
+**Focus:** Modern NLP with transformers and attention mechanisms  
+**Content:** 2 projects exploring transformers for text classification
+
+**Projects:**
+
+##### **1. [Transformer-Based Movie Reviews](./W17-AttentionMechanism-Transformers/HandsOn-MoviewReviews)**
+
+**Problem:** Movie review sentiment analysis using transformers
+**Dataset:** Movie reviews dataset
+
+**Techniques:**
+
+- **Sentence Transformers** - pre-trained transformer models
+- Contextualized embeddings (context-aware word representations)
+- Attention mechanisms
+- PyTorch for deep learning
+
+**Key Learning:** Transformers capture context better than static embeddings like GloVe
+
+**📖 [View Detailed README](./W17-AttentionMechanism-Transformers/HandsOn-MoviewReviews/README.md)**
+
+##### **2. [News Article Categorization with Transformers](./W17-AttentionMechanism-Transformers/NewsArticles)**
+
+**Problem:** Multi-class article categorization using attention mechanisms
+**Dataset:** News articles with category labels
+
+**Techniques:**
+
+- Pre-trained sentence transformers
+- Attention mechanisms for document understanding
+- Transfer learning with BERT/RoBERTa-based models
+- Multi-class classification
+
+**Key Learning:** Transformers handle longer documents and context better than embedding averaging
+
+**📖 [View Detailed README](./W17-AttentionMechanism-Transformers/NewsArticles/README.md)**
+
+**Module Overview:**
+
+- Understanding attention mechanisms (self-attention)
+- Transformer architecture fundamentals
+- Using pre-trained transformer models
+- sentence-transformers library
+- Comparing transformers vs traditional embeddings
+
+**📖 [View Module README](./W17-AttentionMechanism-Transformers/README.md)**
+
+---
+
 ### 📈 Learning Progression
 
 ```
@@ -670,91 +820,117 @@ Week 9-11: Advanced Ensemble Methods & Optimization
   ↓
 Week 12:   ML Pipelines & Workflow Automation
   ↓
+Week 13:   Regularization (Ridge & Lasso Regression)
+  ↓
 Week 14-15: Deep Learning (Neural Networks & Optimization)
+  ↓
+Week 16:   Natural Language Processing (Word Embeddings & Text Classification)
+  ↓
+Week 17:   Attention Mechanisms & Transformers (Modern NLP)
 ```
 
 **Total Content:**
 
 - **125+** Python training exercises
 - **50+** Jupyter notebooks
-- **19+** real-world case studies (including P4: Renewable Energy Wind)
+- **19+** real-world case studies
 - **10+** different ML algorithms implemented
 - **Complete ML workflow automation** with pipelines
-- **Deep Learning fundamentals** and optimization techniques with TensorFlow/Keras
+- **Deep Learning fundamentals** with TensorFlow/Keras
+- **NLP projects** with word embeddings and text classification
+- **Transformers & Attention** mechanisms for modern NLP
 
 ---
 
-## 💻 Installation
+## 💻 Installation & Setup
 
-### Prerequisites
+### Option 1: Local Laptop Setup
 
-- Python 3.8 or higher
-- pip package manager
+Depending on the module, you'll need a standard Python data science environment. For advanced topics (NLP, Prompt Engineering, RAG), a machine with a dedicated GPU (or an Apple Silicon Mac like M1/M2/M3) is highly recommended.
 
-### Setup
+**1. Clone the repository:**
+```bash
+git clone https://github.com/yourusername/AI-ML-Experiments.git
+cd AI-ML-Experiments
+```
 
-1. **Clone the repository**
+**2. Create a virtual environment:**
+```bash
+# It's highly recommended to isolate your dependencies
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
 
-   ```bash
-   git clone https://github.com/yourusername/AI-ML-Experiments.git
-   cd AI-ML-Experiments
-   ```
+**3. Install the required packages:**
+```bash
+# This installs the global dependencies for most machine learning algorithms.
+pip install -r requirements.txt
 
-2. **Create a virtual environment** (recommended)
+# For specific deep-dive folders like P4-MedicalDiagnosis (RAG), check their specific req1.txt files!
+```
 
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
+### Option 2: Google Colab (Recommended for Deep Learning / LLMs)
 
-3. **Install dependencies**
+If your laptop lacks hardware acceleration, Google Colab is the easiest way to run the heavy modules (W14-W19 & P4).
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Click **File > Open Notebook > GitHub**
+3. Paste the URL of the specific notebook you want to run.
+4. **Important**: Change the runtime to use a GPU! Go to **Runtime > Change runtime type** and select **T4 GPU** (or better if you have a Pro subscription).
+5. In the first cell of the notebook, you might need to run a `!pip install [package_name]` command to grab the specific packages for that module.
 
-### Dependencies
+---
 
-The main packages used in this repository include:
+## 📦 Global Packages & Their Uses
 
-- `numpy` - Numerical computing
-- `pandas` - Data manipulation and analysis
-- `matplotlib` & `seaborn` - Static visualizations
-- `plotly` & `plotly-express` - Interactive visualizations
-- `scikit-learn` - Machine learning algorithms
-- `xgboost` - Gradient boosting framework
-- `statsmodels` - Statistical modeling
-- `mlxtend` - ML extensions and utilities
-- `vkpykit` - Custom ML toolkit
+While individual folders highlight the specific tech they use, here is the master list of the core data science stack powering this repository:
+
+**Data Wrangling & Math:**
+- `pandas` / `numpy` - The bread and butter for loading CSVs, cleaning data, and doing matrix math.
+
+**Visualization:**
+- `matplotlib` / `seaborn` / `plotly` - For building charts, heatmaps, and seeing what the data actually looks like.
+
+**Machine Learning (Classical):**
+- `scikit-learn` - Used everywhere for Linear Regression, clustering, Decision Trees, and model evaluation techniques (GridSearch, Train/Test Splits).
+- `xgboost` / `statsmodels` / `mlxtend` - For advanced ensemble methods and boosting algorithms.
+- `imblearn` - Critical for handling imbalanced datasets (like SMOTE).
+
+**Deep Learning & NLP (Requires strong CPU/GPU!):**
+- `tensorflow` / `keras` / `torch` - Used in W14-W17 for building Neural Networks and Attention mechanisms.
+- `nltk` / `spacy` - Essential tools for text preprocessing (tokenization, stemming).
+- `transformers` / `sentence_transformers` - Hugging Face libraries for state-of-the-art NLP.
+
+**Generative AI / LLMs (Heavy Resources):**
+- `langchain` / `langchain_community` - Orchestrating RAG pipelines and prompt chains.
+- `llama_cpp` - Running Large Language Models locally on your machine.
+- `chromadb` - Storing dense text vectors for semantic search.
 
 ---
 
 ## 🎮 Usage
 
-### Running Jupyter Notebooks
+### Running Jupyter Notebooks Locally
 
 1. Navigate to the desired project directory:
-
    ```bash
    cd P3-EnsembleLearning-Visa
    ```
 
 2. Launch Jupyter Notebook:
-
    ```bash
    jupyter notebook
    ```
 
 3. Open the `.ipynb` file and run the cells sequentially.
 
-### Project Structure
+### Project Structure (What's inside?)
 
 Each project folder typically contains:
+- 📓 **Jupyter Notebooks** - The main event. Contains the code, markdown logic, and visualizations.
+- 📊 **Datasets** - CSV or JSON files (unless excluded via `.gitignore`).
+- 📄 **README.md** - A folder-specific guide listing exactly what that module does and the specific packages it requires.
 
-- 📓 **Jupyter Notebooks** - Complete code with analysis and visualizations
-- 📊 **Datasets** - CSV or other data files
-- 📈 **Visualizations** - Generated plots and charts
-- 📄 **HTML exports** - Notebook exports for easy viewing
 
 ---
 
