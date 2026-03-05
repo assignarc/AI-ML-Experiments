@@ -2,8 +2,9 @@
 ~/.venv*
 ~/.vscode
 __pycache__/
+r.txt
 req1.txt
-
+.vscode
 # Secrets — never commit tokens
 .env
 .env.*
