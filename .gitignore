@@ -24,3 +24,5 @@ W16-NaturalLanguageProcessing/Movies/glove.6B.100d.txt
 req1.txt
 **/chroma.sqlite3
 **/index_metadata.pickle
+.ipynb_checkpoints/*
+anaconda_projects/*
