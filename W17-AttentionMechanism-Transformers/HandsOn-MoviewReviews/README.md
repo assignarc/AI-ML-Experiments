@@ -1,70 +1,35 @@
-# Transformer-Based Movie Review Sentiment Analysis
+# HandsOn-MoviewReviews
+> Learning through experiments and data!
 
-> Same movie reviews but this time using actual transformers instead of just embeddings
+## What was the goal?
+In the fast-evolving landscape of the entertainment industry, it is important to gauge audience sentiments towards movie releases. Understanding the sentiments expressed in movie reviews is crucial for shaping marketing strategies, refining content creation, and ultimately enhancing the overall viewer experience. However, manually analyzing an extensive volume of reviews is time-consuming and may not capture nuanced sentiments at scale. To address this, we aim to develop an ML-based sentiment analyzer that automatically evaluates movie reviews, providing actionable insights into audience perceptions.
+- **review:** review of a movie
+- **sentiment:** indicates the sentiment of the review ( 0 is for negative review and 1 for positive review)
 
-## What's this?
+## Why does this matter? (Business Context)
+Placeholder: Why does this analysis matter for a business?
 
-Going back to movie review sentiment analysis but this time using **transformer models** instead of GloVe + Random Forest. Wanted to see how much better transformers actually are (spoiler: they're better).
+## Tech Stack
+Matplotlib, NumPy, Pandas, PyTorch, Scikit-learn, Seaborn, Sentence_transformers, Transformers
 
-## The problem
+## Stuff I used (Libraries)
+matplotlib, numpy, pandas, seaborn, sentence_transformers, sklearn, torch, transformers
 
-Still the same - predict if a movie review is positive or negative. But now using modern NLP with attention mechanisms.
+## What did I notice?
+* Here, a sentiment value of **0 is negative** and **1 is positive**.
+* The dataset has 10000 rows and 2 columns.
+* There are no missing values in the data
+- There are almost an equal number of positive and negative reviews.
 
-## Data
+## What I Found (Insights)
+Placeholder: What did you find out?
 
-**Movie Reviews** (`movie_reviews.csv`)
+## What I Learned
+Placeholder: What was the biggest takeaway?
 
-- Same movie review dataset as before
-- Sentiment labels (positive/negative)
+## How did it do? (Results)
+Placeholder: Final model scores or summary.
 
-## What's different this time
+## Wrapping up
+Placeholder: Final thoughts.
 
-Instead of:
-
-- GloVe embeddings → averaging → Random Forest
-
-Now using:
-
-- **Sentence Transformers** - pre-trained transformer models
-- Direct classification with transformer architectures
-- Attention mechanisms to focus on important words
-
-## Approach
-
-1. **Load pre-trained transformer**
-   - Using sentence-transformers library
-   - Models like MiniLM, RoBERTa, etc.
-
-2. **Get contextualized embeddings**
-   - Unlike GloVe, these change based on context
-   - "Bank" in "river bank" vs "bank account" get different vectors (finally!)
-
-3. **Classification**
-   - Either use transformer's built-in classification
-   - Or use transformer embeddings + classifier
-
-## What I'm learning
-
-- Transformers capture context way better than static embeddings
-- Pre-trained models are insanely good (transfer learning is real)
-- Attention mechanisms let the model focus on relevant words
-- Way better than GloVe for this task (but also heavier/slower)
-- Using sentence-transformers is actually pretty easy
-
-## Tech used
-
-- **PyTorch** - deep learning framework
-- **sentence-transformers** - pre-trained transformer models
-- **Transformers** - attention mechanism architecture
-- Same sklearn stuff for evaluation
-
-## Files
-
-- `Hands_on_Transformers_Notebook.ipynb` - transformer implementation
-- `movie_reviews.csv` - movie review data
-
----
-
-**Learned:** Transformers > embeddings. Context matters. Also, pre-trained models are magical.
-
-[🔙 Back to W17](../) | [🔙 Back to Main](../../README.md)

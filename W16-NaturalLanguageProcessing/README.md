@@ -1,63 +1,11 @@
-# 📝 Natural Language Processing (W16)
+# W16-NaturalLanguageProcessing
+> Learning through experiments and data!
 
-> **Learning Module:** Tokenizing, stemming, and vectorizing raw text to make ML models actually understand human language.
-
----
-
-## What's this about?
-
-This week is entirely focused on turning unstructured text (like movie reviews, tweets, or articles) into numbers so that a machine learning model can actually work with it. 
-
-### The Goal
-
+## What was the goal?
 We can't just pass the string "I loved this movie" into a Random Forest. The goal here is to:
 
-- Clean text data (removing stopwords, punctuation).
-- Break sentences down into their root words.
-- Use vectorization techniques (Bag of Words, TF-IDF) to represent those words as matrices.
-- Train predictive models on those numeric representations.
-
----
-
-## The Data
-
-**Format:** Usually raw CSVs loaded with text strings (like IMDB reviews).
-
-### Typical Vectorization Metrics
-
-| Technique | Description | Pros/Cons |
-| ----------------------- | -------------------------------- | ----------- |
-| Stopword Removal | Stripping words like "the", "a", "is" | Shrinks vocabulary massively |
-| Stemming | Chopping off ends of words (running -> run) | Fast, but sometimes makes fake words |
-| Lemmatization | Finding the dictionary root | Slower but accurate |
-| CountVectorizer | Bag of words (how many times a word appears) | Very large sparse matrices |
-| TF-IDF | Term Frequency-Inverse Document Frequency | Weighs unique "important" words higher |
-
----
-
-## What I'm trying to do
-
-### 1. Text Preprocessing Pipeline
-
-- Use NLTK/Spacy to completely clean the text.
-- Remove HTML tags if scraping from the web.
-
-### 2. Feature Engineering
-
-- Fit a `TfidfVectorizer` to scale down the noise of common words.
-- Explore n-grams (grouping words like "not good" instead of just "not" and "good").
-
-### 3. Classification
-
-- Feed the TF-IDF matrix into a Naive Bayes or Logistic Regression model to predict sentiment.
-
----
-
-## Quick Numbers
-
-Preprocessing text drastically reduces the dimensions of your dataset. Going through a corpus of 10,000 sentences with raw vocab might yield 50,000 features. Applying stemming and TF-IDF can cut that in half, vastly speeding up model training (GridSearch is slow but worth it).
-
----
+## Why does this matter? (Business Context)
+Placeholder: Why does this analysis matter for a business?
 
 ## Tech Stack
 ### Packages Needed For This Module:
@@ -79,20 +27,30 @@ Preprocessing text drastically reduces the dimensions of your dataset. Going thr
 
 ---
 
-## What I Learned
+## Stuff I used (Libraries)
+Standard Libraries
 
+## What did I notice?
+Placeholder: What interesting things popped up in the data?
+
+## What I Found (Insights)
+Placeholder: What did you find out?
+
+## What I Learned
 - Text processing is 90% of the work in NLP (there is always messy data everywhere).
 - N-grams are huge. If a review says "this movie was not good", unigrams count "good" as a positive word, which ruins the prediction!
 - TF-IDF almost always outperforms simple Bag of Words because it punishes words that appear too often.
 
 ---
 
-## 🔗 Links
+## How did it do? (Results)
+Placeholder: Final model scores or summary.
 
-- [Back to Main Repository](../)
-- [P4: Medical Diagnosis (RAG Example)](../P4-MedicalDiagnosis)
+## Wrapping up
+Placeholder: Final thoughts.
 
----
+## Exercises
+- [Problem Statement**.](./SentimentAnalysis-Movies/README.md)
+- [Model Testing](./SentimentAnalysis-WordEmbed-ProductReview/README.md)
+- [WordEmbedding](./WordEmbedding/README.md)
 
-**Project Date:** 2024  
-**Domain:** Natural Language Processing (NLP)
