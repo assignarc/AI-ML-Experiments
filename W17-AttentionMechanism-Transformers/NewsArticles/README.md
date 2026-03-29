@@ -1,76 +1,33 @@
-# News Article Categorization with Transformers
+# NewsArticles
+> Learning through experiments and data!
 
-> Article classification but this time using transformers to see if they're actually better
+## What was the goal?
+Placeholder: Describe the goal here.
 
-## What's this?
+## Why does this matter? (Business Context)
+In the dynamic landscape of the media and news industry, the ability to swiftly categorize and curate content has become a strategic imperative. The vast volume of information demands efficient systems to organize and present content to the audience.
 
-Multi-class text classification for news articles using **transformers and attention mechanisms**. Testing if transformer models beat the GloVe + Random Forest approach from before.
+## Tech Stack
+Matplotlib, NumPy, Pandas, PyTorch, SciPy, Scikit-learn, Seaborn, Sentence_transformers
 
-## The problem
+## Stuff I used (Libraries)
+matplotlib, numpy, pandas, scipy, seaborn, sentence_transformers, sklearn, torch
 
-Given a news article, categorize it into the right topic (politics, sports, tech, business, etc.). Same as before but with better models.
+## What did I notice?
+* The data comprises of ~2.2k news articles
+- There are no mising values in the data
+- We'll drop the duplicate values in the data.
+- There are no duplicate values in the data now.
 
-## Data
+## What I Found (Insights)
+Placeholder: What did you find out?
 
-**News Articles**
+## What I Learned
+Placeholder: What was the biggest takeaway?
 
-- `news_articles.csv` - article text
-- `news_article_labels.csv` - category labels
-- Multiple categories (multi-class problem)
+## How did it do? (Results)
+Placeholder: Final model scores or summary.
 
-## New approach
+## Wrapping up
+Placeholder: Final thoughts.
 
-**Before (W16):**
-
-- GloVe embeddings
-- Average word vectors
-- Random Forest
-
-**Now (W17):**
-
-- **Sentence transformers** - contextualized embeddings
-- Attention mechanisms to focus on important parts
-- Better handling of document-level semantics
-
-## How it works
-
-1. **Use pre-trained transformers**
-   - sentence-transformers models
-   - Already trained on tons of text
-   - Understand context and semantics
-
-2. **Get document embeddings**
-   - Transformers create sentence/document vectors
-   - Capture context better than averaging GloVe
-
-3. **Multi-class classification**
-   - Fine-tune transformer or use embeddings
-   - Classify into article categories
-
-## What I'm learning
-
-- Transformers handle longer documents better
-- Attention lets model focus on key phrases
-- Pre-trained transformers already "understand" topics pretty well
-- Transfer learning saves so much time (and compute)
-- Multi-class with transformers is actually straightforward
-- sentence-transformers library makes this way easier than expected
-
-## Tech used
-
-- **PyTorch** (`torch`) - deep learning
-- **sentence-transformers** - pre-trained models
-- Attention mechanisms
-- sklearn for metrics
-
-## Files
-
-- `News_Article_Categorization_Notebook.ipynb` - main implementation
-- `news_articles.csv` - article data
-- `news_article_labels.csv` - category labels
-
----
-
-**Learned:** Transformers are better for longer text. Context > word counts. Pre-training is OP.
-
-[🔙 Back to W17](../) | [🔙 Back to Main](../../README.md)

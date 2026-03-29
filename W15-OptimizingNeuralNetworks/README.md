@@ -1,86 +1,32 @@
-# 🔧 Week 15: Optimizing Neural Networks
+# W15-OptimizingNeuralNetworks
+> Learning through experiments and data!
 
-## 📝 Overview
+## What was the goal?
+Placeholder: Describe the goal here.
 
-This module focuses on ** optimization techniques** for neural networks to prevent overfitting, improve generalization, and enhance model performance. It builds upon Week 14's fundamentals with regularization methods and normalization techniques.
+## Why does this matter? (Business Context)
+Placeholder: Why does this analysis matter for a business?
 
-## 📚 Key Concepts
+## Tech Stack
+### Packages Needed For This Module:
+- `keras`
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `seaborn`
+- `sklearn`
+- `tensorflow`
 
-- **Regularization Techniques:**
- - **Dropout:** Randomly deactivating neurons during training to prevent co-adaptation and overfitting.
- - **Batch Normalization:** Normalizing inputs of each layer to stabilize and accelerate training.
- - **L1/L2 Regularization:** Adding penalty terms to the loss function to constrain weights.
-- **Optimization Strategies:**
- - **Learning Rate Scheduling:** Dynamic adjustment of learning rates during training.
- - **Early Stopping:** Monitoring validation performance to prevent overfitting.
-- ** Architectures:** Building deeper networks with multiple hidden layers.
+## Stuff I used (Libraries)
+keras, matplotlib, numpy, pandas, seaborn, sklearn, tensorflow
 
-## 🛠️ Techniques & Tools
+## What did I notice?
+- The MNIST (Modified National Institute of Standards and Technology) dataset is one of the most popular datasets used in machine learning and deep learning
 
-- **TensorFlow & Keras:** Implementing Dropout and BatchNormalization layers.
-- **Hyperparameter Tuning:** Experimenting with different dropout rates, batch sizes, and learning rates.
-- **Model Comparison:** Evaluating performance across various architectures.
-
-## 📂 Projects
-
-### 🔢 [MNIST Digit Classification](./Optimizing_Neural_Networks_Notebook.ipynb)
-
-**Objective:** Classify handwritten digits (0-9) using optimized neural network architectures.
-
-**Dataset:**
-
-- 70,000 grayscale images (28x28 pixels)
-- Train: 60,000 images | Test: 10,000 images
-- Pixel values normalized to [0, 1] range
-
-**Highlights:**
-
-- **Optimization Techniques Applied:**
- - Dropout layers to reduce overfitting
- - Batch Normalization for faster convergence
- - Multiple hidden layer configurations
-- **Performance Metrics:** Accuracy, Loss tracking across epochs
-- **Comparative Analysis:** Baseline vs. optimized models
-
----
-
-### 💳 [Credit Card Fraud Detection](./CreditCard)
-
-**Objective:** Detect fraudulent credit card transactions using neural networks optimized for imbalanced datasets.
-
-**Highlights:**
-
-- Handling highly imbalanced data (fraudulent vs. legitimate transactions)
-- Application of dropout and regularization techniques
-- Binary classification with optimized neural network architecture
-
----
-
-### 👔 [Job Change Prediction](./JobChange)
-
-**Objective:** Predict whether an employee is likely to change jobs based on demographic and work-related features.
-
-**Highlights:**
-
-- Multi-feature analysis for employee retention prediction
-- Neural network optimization for classification tasks
-- Practical HR analytics application
-
----
-
-### 📊 [MNIST Example (Lecture)](./MNIST-ExampleInLecture)
-
-**Objective:** Step-by-step demonstration of neural network optimization concepts from the lecture.
-
-**Highlights:**
-
-- Foundational example illustrating dropout and batch normalization
-- Clear visualization of optimization impact on model performance
-
----
+## What I Found (Insights)
+Placeholder: What did you find out?
 
 ## What I Learned
-
 - **Dropout** effectively prevents overfitting by randomly dropping neurons during training.
 - **Batch Normalization** stabilizes training and allows for higher learning rates.
 - Proper regularization techniques significantly improve model generalization.
@@ -93,12 +39,14 @@ This module focuses on ** optimization techniques** for neural networks to preve
 
 ---
 
-## Tech Stack
-### Packages Needed For This Module:
-- `keras`
-- `matplotlib`
-- `numpy`
-- `pandas`
-- `seaborn`
-- `sklearn`
-- `tensorflow`
+## How did it do? (Results)
+Placeholder: Final model scores or summary.
+
+## Wrapping up
+Placeholder: Final thoughts.
+
+## Exercises
+- [CreditCard](./CreditCard/README.md)
+- [Job Change Prediction](./JobChange/README.md)
+- [MNIST-ExampleInLecture](./MNIST-ExampleInLecture/README.md)
+

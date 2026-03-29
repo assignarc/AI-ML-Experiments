@@ -1,46 +1,11 @@
-# 🧠 Week 14: Introduction to Neural Networks
+# W14-IntroNeuralNetworks
+> Learning through experiments and data!
 
-## 📝 Overview
+## What was the goal?
+Placeholder: Describe the goal here.
 
-This module introduces the fundamentals of **Deep Learning** and **Artificial Neural Networks (ANN)**. It marks the transition from traditional machine learning algorithms to deep learning architectures capable of modeling complex non-linear relationships.
-
-## 📚 Key Concepts
-
-- **Artificial Neural Networks (ANN):** Understanding neurons, layers (Input, Hidden, Output), and weights.
-- **Forward & Backward Propagation:** The mechanism of learning and error correction.
-- **Activation Functions:**
- - **Sigmoid:** S-shaped curve, outputs between 0 and 1.
- - **Tanh:** Hyperbolic tangent, outputs between -1 and 1.
- - **ReLU (Rectified Linear Unit):** Solves vanishing gradient problem, outputs 0 or input.
-- **Loss Functions:** Measuring error (e.g., Mean Squared Error for regression).
-- **Optimizers:** Algorithms to update weights (e.g., Stochastic Gradient Descent - SGD).
-
-## 🛠️ Techniques & Tools
-
-- **TensorFlow & Keras:** Using the Sequential API to build models.
-- **Data Preprocessing for DL:**
- - **StandardScaler:** Essential for neural network convergence.
- - **Log Transformation:** Handling skewed data distributions.
- - **Missing Value Imputation:** Using grouped medians.
-- **Model Evaluation:** R², RMSE, MAE, and MAPE.
-
-## 📂 Projects
-
-### 🚗 [Used Car Price Prediction](./UsedCars)
-
-**Objective:** Develop a neural network model to predict the selling price of used cars based on specifications like brand, model, year, engine, and mileage.
-
-**Highlights:**
-- **Iterative Approach:** Started with a simple perceptron and evolved to multi-layer networks.
-- **Architecture Tuning:** Experimented with different numbers of hidden layers (1 to 2) and neurons (32, 64, 128).
-- **Activation Analysis:** Compared performance of Sigmoid, Tanh, and ReLU.
-- **Results:** The final model with ReLU activation achieved an **R² of ~0.84** on test data.
-
----
-
-[**🔙 Back to Main Repository**](../readme.md)
-
----
+## Why does this matter? (Business Context)
+Placeholder: Why does this analysis matter for a business?
 
 ## Tech Stack
 ### Packages Needed For This Module:
@@ -52,3 +17,26 @@ This module introduces the fundamentals of **Deep Learning** and **Artificial Ne
 - `seaborn`
 - `sklearn`
 - `tensorflow`
+
+## Stuff I used (Libraries)
+Standard Libraries
+
+## What did I notice?
+Placeholder: What interesting things popped up in the data?
+
+## What I Found (Insights)
+Placeholder: What did you find out?
+
+## What I Learned
+Placeholder: What was the biggest takeaway?
+
+## How did it do? (Results)
+Placeholder: Final model scores or summary.
+
+## Wrapping up
+Placeholder: Final thoughts.
+
+## Exercises
+- [Predicting Chances of Admission](./AdmissionsCaseStudy/README.md)
+- [UsedCars](./UsedCars/README.md)
+

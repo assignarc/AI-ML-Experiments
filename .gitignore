@@ -26,3 +26,5 @@ req1.txt
 **/index_metadata.pickle
 .ipynb_checkpoints/*
 anaconda_projects/*
+W21-ConvolultionalNeuralNetworks/TransferLearning/brain_tumor/**
+P6-ImageAnalysis/HelmNEt-Notebook-AssignmentCompleted.db

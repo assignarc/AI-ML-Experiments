@@ -1,71 +1,30 @@
-# Movie Review Sentiment Analysis
+# Problem Statement**.
+> Learning through experiments and data!
 
-> Figuring out if movie reviews are thumbs up or thumbs down using word embeddings
+## What was the goal?
+In the fast-evolving landscape of the entertainment industry, it is important to gauge audience sentiments towards movie releases. Understanding the sentiments expressed in movie reviews is crucial for shaping marketing strategies, refining content creation, and ultimately enhancing the overall viewer experience. However, manually analyzing an extensive volume of reviews is time-consuming and may not capture nuanced sentiments at scale. To address this, we aim to develop an ML-based sentiment analyzer that automatically evaluates movie reviews, providing actionable insights into audience perceptions again.
 
-## What's this?
+## Why does this matter? (Business Context)
+Placeholder: Why does this analysis matter for a business?
 
-Built a sentiment analysis thing for movie reviews. Instead of just counting words (bag-of-words is pretty basic), used GloVe word embeddings to actually understand what words mean. Then threw it at a Random Forest to classify positive vs negative reviews.
+## Tech Stack
+Matplotlib, NLTK, NumPy, Pandas, Scikit-learn, Seaborn, String
 
-## The problem
+## Stuff I used (Libraries)
+matplotlib, nltk, numpy, pandas, seaborn, sklearn, string
 
-Given a movie review, predict if it's **positive** or **negative**. Classic NLP stuff.
+## What did I notice?
+Placeholder: What interesting things popped up in the data?
 
-## Data
+## What I Found (Insights)
+Placeholder: What did you find out?
 
-**Movie Reviews**
+## What I Learned
+Placeholder: What was the biggest takeaway?
 
-- `review` - the actual review text
-- `sentiment` - 0 = negative, 1 = positive
+## How did it do? (Results)
+Placeholder: Final model scores or summary.
 
-Also using **GloVe embeddings** (`glove.6B.100d.txt`) - these are pre-trained word vectors that somehow capture word relationships (pretty neat actually).
+## Wrapping up
+Placeholder: Final thoughts.
 
-## How I did it
-
-1. **Cleaning the text**
-   - Lowercase everything
-   - Strip HTML tags (some reviews had them)
-   - Tokenize into words
-   - Remove stopwords (the, is, and, etc.)
-   - Lemmatize (convert words to base form)
-
-2. **Word Embeddings**
-   - Used GloVe (100-dimensional vectors)
-   - Way better than just counting words
-
-3. **Model**
-   - Random Forest Classifier
-   - Trained on the word vectors
-
-## Results
-
-- **Train:** ~84%
-- **Test:** ~81%
-
-Not bad! Model doesn't overfit too much which is good.
-
-## What I learned
-
-- Word embeddings are way better than bag-of-words (duh)
-- GloVe vectors actually capture semantic similarity - words with similar meanings are close together
-- Text preprocessing matters more than I thought (lemmatization helps a lot)
-- Random Forest handles high-dimensional stuff pretty well
-- Pre-trained embeddings are a huge time saver (no need to train your own)
-
-## What I used
-
-- **NLP stuff** - NLTK for tokenization, stopwords, lemmatization
-- **Embeddings** - GloVe pre-trained vectors
-- **Model** - Random Forest
-- **Libraries** - NLTK, sklearn, gensim
-
-## Files
-
-- `Sentiment_Analysis_Hands_on.ipynb` - main notebook
-- `movie_reviews.csv` - reviews dataset
-- `glove.6B.100d.txt` - GloVe embeddings (331 MB, ignored in git)
-
----
-
-**Learned:** Word embeddings > counting words. Also, text preprocessing is annoying but necessary.
-
-[🔙 Back to W16](../) | [🔙 Back to Main](../../README.md)

@@ -1,166 +1,25 @@
-# 📝 W4: Analyzing Text Data
+# Installing and Importing the Necessary Libraries
+> Learning through experiments and data!
 
-> **Text Analytics Module:** NLP fundamentals and text mining techniques
+## What was the goal?
+As a data scientist, your objective is to develop an efficient text preprocessing pipeline that will clean and structure a dataset of movie reviews. This preprocessing step will ensure that the data is standardized and ready for further analysis, ultimately supporting the identification of trends and insights that can drive content and marketing strategies in the entertainment industry.
 
----
+## Why does this matter? (Business Context)
+In the rapidly evolving landscape of the entertainment industry, understanding audience feedback through movie reviews is essential for refining content and shaping marketing strategies. However, the sheer volume of reviews presents challenges in efficiently processing and analyzing this information. To remain competitive, entertainment companies must find effective ways to clean and structure this data, enabling them to derive valuable insights for enhancing viewer experiences and making informed decisions.
 
-## 📋 Module Overview
+## Tech Stack
+NLTK, NumPy, Pandas, Scikit-learn
 
-**Focus:** Natural Language Processing & Text Mining 
-**Content:** 3 notebooks 
-**Difficulty:** Intermediate 
-**Prerequisites:** W1-W3 (Python, Pandas, Data Analysis)
+## Stuff I used (Libraries)
+nltk, numpy, pandas, sklearn
 
----
+## What did I notice?
+Placeholder: What interesting things popped up in the data?
 
-## 📚 Content Structure
-
-### 1. Regular Expressions & Data Cleaning
-
-**File:** `ATD-LearnRegEx-DataCleaning.ipynb`
-
-**Topics:**
-
-- **RegEx Basics:** Pattern matching fundamentals
-- **Common Patterns:** Email, phone number, URL extraction
-- **Data Cleaning:** Removing unwanted characters
-- **String Parsing:** Extracting structured data from text
-
-**RegEx Essentials:**
-
-```python
-import re
-
-# Pattern matching
-pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
-emails = re.findall(pattern, text)
-
-# Data cleaning
-cleaned_text = re.sub(r'[^a-zA-Z0-9\s]', '', raw_text)
-```
-
----
-
-### 2. Text Data Analysis
-
-**File:** `AnalyzingTextDataNotebook.ipynb`
-
-**Topics:**
-
-- **Text Preprocessing:**
-
- - Lowercasing
- - Removing punctuation
- - Tokenization
- - Stop word removal
-
-- **Text Statistics:**
-
- - Word frequency
- - Document length analysis
- - Vocabulary size
-
-- **Basic NLP:**
- - Sentiment indicators
- - Keyword extraction
- - Text summarization basics
-
----
-
-## 🎯 Skills Developed
-
-✅ **Regular Expressions** - Pattern matching and extraction 
-✅ **Text Cleaning** - Preprocessing unstructured data 
-✅ **String Manipulation** - Python string operations 
-✅ **Data Extraction** - Mining information from text 
-✅ **NLP Foundations** - Basic natural language processing
-
----
-
-## 📁 Directory Structure
-
-```
-W4-AnalyzeTextData/
-├── ATD-LearnRegEx-DataCleaning.ipynb
-├── AnalyzingTextDataNotebook.ipynb
-└── README.md (this file)
-```
-
----
-
-## Running This
-### Packages Needed For This Module:
-- `nltk`
-- `numpy`
-- `pandas`
-- `sklearn`
-
-
-### Installation
-
-```bash
-pip install pandas numpy jupyter re
-# re is built-in with Python
-```
-
-### Run Notebooks
-
-```bash
-cd W4-AnalyzeTextData
-jupyter notebook
-```
-
-**Recommended Order:**
-
-1. Start with RegEx & Data Cleaning
-2. Then proceed to Text Data Analysis notebook
-
----
-
-## 💡 Key Techniques
-
-### Regular Expressions
-
-- **`.`** - Any character
-- **`\d`** - Digit
-- **`\w`** - Word character
-- **`+`** - One or more
-- **`*`** - Zero or more
-- **`[]`** - Character set
-- **`()`** - Grouping
-
-### Text Preprocessing Pipeline
-
-```
-Raw Text
- ↓
-Lowercase
- ↓
-Remove Punctuation
- ↓
-Tokenization
- ↓
-Remove Stop Words
- ↓
-Clean Text Ready for Analysis
-```
-
----
-
-## 🔗 Applications
-
-Text analysis skills are used in:
-
-- **Customer Feedback Analysis**
-- **Social Media Monitoring**
-- **Email Classification**
-- **Document Processing**
-- **Data Extraction from PDFs/HTMLs**
-
----
+## What I Found (Insights)
+Placeholder: What did you find out?
 
 ## What I Learned
-
 - Master regular expressions for pattern matching
 - Clean and preprocess text data efficiently
 - Extract structured information from unstructured text
@@ -169,12 +28,9 @@ Text analysis skills are used in:
 
 ---
 
-## 🔗 Links
+## How did it do? (Results)
+Placeholder: Final model scores or summary.
 
-- [Back to Main](../)
-- [Previous: EDA](../W3-ExploratoryDataAnalysis)
-- [Next: Linear Regression](../W5-LinearRegression)
+## Wrapping up
+Placeholder: Final thoughts.
 
----
-
-**Module:** W4 | **Type:** Text Analytics | **Key Tool:** Regular Expressions
