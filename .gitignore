@@ -1,30 +1,45 @@
-*.pkl
-~/.venv*
-~/.vscode
+# Git ignore file
+# Byte-compiled / optimized / DLL files
 __pycache__/
-r.txt
-req1.txt
-.vscode
-# Secrets — never commit tokens
-.env
-.env.*
+*.py[cod]
+*$py.class
 
-# Large model files
-*.gguf
-*.bin
-W10-EnsambleLearning-Boosting/WineQuality/0.4.0
-TEMPLATE_README_STYLE.md
-W15-OptimizingNeuralNetworks/CreditCard/creditcard.csv
-W16-NaturalLanguageProcessing/ProductReview/glove.6B.100d.txt
-W16-NaturalLanguageProcessing/WordEmbedding/glove.6B.100d.txt
-W16-NaturalLanguageProcessing/WordEmbedding/glove.6B.100d.txt.word2vec
-W16-NaturalLanguageProcessing/ProductReview/glove.6B.100d.txt.word2vec
-W16-NaturalLanguageProcessing/Movies/glove.6B.100d.txt
-W16-NaturalLanguageProcessing/Movies/glove.6B.100d.txt
-req1.txt
-**/chroma.sqlite3
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 **/index_metadata.pickle
 .ipynb_checkpoints/*
 anaconda_projects/*
-W21-ConvolultionalNeuralNetworks/TransferLearning/brain_tumor/**
+W21-ConvolultionalNeuralNetworks/TransferLearning/brain_tumor/**/*.jpg
 P6-ImageAnalysis/HelmNEt-Notebook-AssignmentCompleted.db
+W19-RetrievalAugmentedGeneration-RAG/AppleHBR/apple_db/**/*.bin
+*.bin
+P5-MedicalDiagnosis/medical_db/chroma.sqlite3
+W19-RetrievalAugmentedGeneration-RAG/AppleHBR/apple_db/chroma.sqlite3
+.env
+.gitignore
+*.pkl
+*.db
