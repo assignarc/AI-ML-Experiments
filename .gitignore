@@ -43,3 +43,4 @@ W19-RetrievalAugmentedGeneration-RAG/AppleHBR/apple_db/chroma.sqlite3
 .gitignore
 *.pkl
 *.db
+.vscode
