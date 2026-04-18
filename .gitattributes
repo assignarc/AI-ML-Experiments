@@ -8,3 +8,4 @@ P6-ImageAnalysis/images.npy filter=lfs diff=lfs merge=lfs -binary
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
