@@ -53,4 +53,5 @@ Placeholder: Final thoughts.
 ## Exercises
 - [Problem Statement](./AppleHBR/README.md)
 - [Retrieval-Augmented Generation (RAG)](./DeloitteArticle/README.md)
+- [NewsArticles](./NewsArticles/README.md)
 

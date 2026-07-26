@@ -149,6 +149,13 @@ VKPyKit has been extensively used in:
 
 ---
 
+### [Executive Summary](./P7-ModelDeployment-SuperKart)
+- **ID:** P7-ModelDeployment-SuperKart
+- **Goal:** SuperKart, a leading e-commerce company, needs to improve its ability to forecast future sales revenue. Accurate sales predictions are essential for effective inventory management, regional sales plan...
+- 📖 [Detailed README](./P7-ModelDeployment-SuperKart/README.md)
+
+---
+
 
 <!-- AUTO_PROJECTS_END -->
 
@@ -257,6 +264,10 @@ VKPyKit has been extensively used in:
 - **Module:** W19-RetrievalAugmentedGeneration-RAG
 - **Summary:** - Parse and split large PDFs or text files into digestible chunks....
 - 📖 [Module README](./W19-RetrievalAugmentedGeneration-RAG/README.md)
+
+### [W20-ModelDeployment](./W20-ModelDeployment)
+- **Module:** W20-ModelDeployment
+- 📖 [Module README](./W20-ModelDeployment/README.md)
 
 ### [W20-ImageProcessing](./W20-ImageProcessing)
 - **Module:** W20-ImageProcessing
